@@ -4,18 +4,18 @@ import Box from "@material-ui/core/Box";
 import styled from "@emotion/styled";
 
 const IntroContainer = styled.div`
-  max-width: 800px;
-  margin: 92px 0;
+  max-width: 640px;
+  margin: 92px 0 118px 0;
 `;
 
 const Intro = () => {
   return (
     <IntroContainer className="IntroContainer">
       <Box>
-        <h2>
+        <h1>
           Stories are more insightful and meaningful when supported with the
           right data and the right visuals
-        </h2>
+        </h1>
       </Box>
       <Box>
         <h3>

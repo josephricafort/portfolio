@@ -11,12 +11,18 @@ const HeaderContainer = styled.div`
 `;
 const Title = styled.h3``;
 const Navbar = styled.h3``;
+const Navlink = styled.span`
+  margin: 0 0 0 24px;
+`;
 
 const Header = () => {
   return (
     <HeaderContainer>
       <Title>Joseph Ricafort</Title>
-      <Navbar>About Contact</Navbar>
+      <Navbar>
+        <Navlink>About</Navlink>
+        <Navlink>Contact</Navlink>
+      </Navbar>
     </HeaderContainer>
   );
 };

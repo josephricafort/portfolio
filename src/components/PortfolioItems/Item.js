@@ -21,7 +21,7 @@ const Item = ({ title, description, imageSource }) => {
     <ItemContainer>
       <TextContainer>
         <h3>{title}</h3>
-        <h4>{description}</h4>
+        <p>{description}</p>
       </TextContainer>
     </ItemContainer>
     // </a>

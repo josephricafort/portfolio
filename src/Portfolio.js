@@ -4,20 +4,23 @@ import "./Portfolio.css";
 import Container from "./containers/Container";
 import Header from "./containers/Header";
 import Intro from "./containers/Intro";
-import Items from "./containers/PortfolioItems";
+import PortfolioItems from "./containers/PortfolioItems";
 import About from "./containers/About";
 import Contact from "./containers/Contact";
+import Footer from "./containers/Footer";
 
 function Portfolio() {
-  return (
+  return [
     <Container className="Portfolio">
       <Header className="Header" />
       <Intro className="Header" />
-      <Items className="Items" />
+      <PortfolioItems className="Items" />
       <About className="About" />
+    </Container>,
+    <Footer className="Footer">
       <Contact className="Contact" />
-    </Container>
-  );
+    </Footer>
+  ];
 }
 
 export default Portfolio;
