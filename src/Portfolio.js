@@ -1,19 +1,23 @@
 import React from "react";
 import "./Portfolio.css";
 
-import Container from "./container/Container";
-import Header from "./container/Header";
-import Items from "./containers/Items";
+import Container from "./containers/Container";
+import Header from "./containers/Header";
+import Intro from "./containers/Intro";
+import Items from "./containers/PortfolioItems";
+import About from "./containers/About";
+import Contact from "./containers/Contact";
 
 function Portfolio() {
-  return [
+  return (
     <Container className="Portfolio">
-      <Header className="Portfolio-header" />
-      <Items />
-      <About />
-    </Container>,
-    <Contact />
-  ];
+      <Header className="Header" />
+      <Intro className="Header" />
+      <Items className="Items" />
+      <About className="About" />
+      <Contact className="Contact" />
+    </Container>
+  );
 }
 
 export default Portfolio;
