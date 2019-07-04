@@ -9,6 +9,9 @@ const ItemContainer = styled.div`
   margin: 12px 0;
   padding: 82px;
   background-color: magenta;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 const TextContainer = styled.div`
@@ -17,14 +20,16 @@ const TextContainer = styled.div`
 
 const Item = ({ title, description, imageSource }) => {
   return (
-    // <a href={imageSource}>
-    <ItemContainer>
+    <ItemContainer
+      style={{
+        backgroundImage: `url(${imageSource})`
+      }}
+    >
       <TextContainer>
         <h3>{title}</h3>
         <p>{description}</p>
       </TextContainer>
     </ItemContainer>
-    // </a>
   );
 };
 

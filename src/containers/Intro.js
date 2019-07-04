@@ -13,8 +13,8 @@ const Intro = () => {
     <IntroContainer className="IntroContainer">
       <Box>
         <h1>
-          Stories are more insightful and meaningful when supported with the
-          right data and the right visuals
+          Stories are more meaningful when supported with the right data and the
+          right visuals
         </h1>
       </Box>
       <Box>

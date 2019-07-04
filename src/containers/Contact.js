@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 
 const ContactContainer = styled.div`
   margin: 0 auto;
-  padding: 40px 0 160px 0;
+  padding: 40px 16px 160px 16px;
   max-width: 640px;
 `;
 
@@ -16,10 +16,8 @@ const ContactList = styled.div`
 `;
 
 const ContactLink = styled.div`
-  // width: 308px;
   flex-basis: 50%;
-  // margin: 0 12px 0 0;
-  background-color: magenta;
+  // background-color: magenta;
 `;
 
 const Contact = () => {
