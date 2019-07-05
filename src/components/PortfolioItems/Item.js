@@ -8,25 +8,29 @@ const ItemContainer = styled.div`
   height: 260px;
   margin: 12px 0;
   padding: 82px;
-  background-color: magenta;
+  background-color: ${props => props.color};
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-blend-mode: darken;
 `;
 
 const TextContainer = styled.div`
   max-width: 800px;
+  color: white;
 `;
 
-const Item = ({ title, description, imageSource }) => {
+const Item = ({ title, description, imageSource, color }) => {
   return (
     <ItemContainer
       style={{
         backgroundImage: `url(${imageSource})`
       }}
+      imageSource={imageSource}
+      color={color}
     >
       <TextContainer>
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <p>{description}</p>
       </TextContainer>
     </ItemContainer>

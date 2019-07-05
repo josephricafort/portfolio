@@ -12,7 +12,7 @@ const HeaderContainer = styled.div`
 const Title = styled.h3``;
 const Navbar = styled.h3``;
 const Navlink = styled.span`
-  margin: 0 0 0 24px;
+  margin: 0 0 0 36px;
 `;
 
 const Header = () => {
@@ -20,6 +20,7 @@ const Header = () => {
     <HeaderContainer>
       <Title>Joseph Ricafort</Title>
       <Navbar>
+        <Navlink>Blog</Navlink>
         <Navlink>About</Navlink>
         <Navlink>Contact</Navlink>
       </Navbar>

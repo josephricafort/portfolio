@@ -10,14 +10,20 @@ import outOfReach from "../images/out-of-reach.png";
 import jeepneyMap from "../images/jeepney-map.png";
 import eurovision from "../images/eurovision.png";
 
-const images = [circleOfNations, outOfReach, jeepneyMap, eurovision];
+const images = [
+  { name: circleOfNations, color: null },
+  { name: outOfReach, color: null },
+  { name: jeepneyMap, color: "#432F005C" },
+  { name: eurovision, color: null }
+];
 
 const PortfolioItems = () => {
   return portfolioItemsData.map((item, index) => (
     <Item
       title={item.title}
       description={item.description}
-      imageSource={images[index]}
+      imageSource={images[index].name}
+      color={images[index].color}
     />
   ));
 };

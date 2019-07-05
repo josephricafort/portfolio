@@ -23,12 +23,12 @@ const ContactLink = styled.div`
 const Contact = () => {
   return (
     <ContactContainer>
-      <h2>Contact</h2>
+      {/* <h2>Contact</h2> */}
       <div>
-        <p>
+        <h2>
           Do you have wonderful ideas in mind? Let's talk about how we can make
           them happen.
-        </p>
+        </h2>
       </div>
       <ContactList>
         <ContactLink>
