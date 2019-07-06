@@ -4,6 +4,8 @@ import styled from "@emotion/styled";
 
 import Email from "../icons/Envelope";
 import Twitter from "../icons/Twitter";
+import Behance from "../icons/Behance";
+import LinkedIn from "../icons/LinkedIn";
 
 const ContactContainer = styled.div`
   margin: 0 auto;
@@ -31,7 +33,7 @@ const ContactLink = styled.div`
 `;
 
 const Icon = styled.div`
-  margin-right: 8px;
+  margin-right: 12px;
   opacity: 0.5;
 `;
 
@@ -67,6 +69,34 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               @josephricafort
+            </a>
+          </strong>
+        </ContactLink>
+        <ContactLink>
+          <Icon>
+            <Behance />
+          </Icon>
+          <strong>
+            <a
+              href="https://www.behance.net/josephricafort"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Joseph Ricafort
+            </a>
+          </strong>
+        </ContactLink>
+        <ContactLink>
+          <Icon>
+            <LinkedIn />
+          </Icon>
+          <strong>
+            <a
+              href="https://www.linkedin.com/in/joseph-ricafort-83b42b28/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Joseph Ricafort
             </a>
           </strong>
         </ContactLink>
