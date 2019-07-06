@@ -12,11 +12,11 @@ const About = () => {
     <AboutContainer id={"about"}>
       <h2>About Joseph</h2>
       <p>
-        I used to work with large datasets as a test development engineer which
-        helped me realize my love-hate relationship with data. I also used to do
-        creative work as a hobby, playing around with presentations and
-        infographics. I got fascinated with the idea of marrying data, design
-        and development together which led me into this field
+        I have worked with large datasets as a test development engineer in the
+        Philippines which helped me realize my love-hate relationship with data.
+        I also used to do creative work as a hobby, playing around with
+        presentations and infographics. I got fascinated with the idea of
+        marrying data, design and code together which led me into this field
       </p>
       <p>
         Recently, I completed my internship at a{" "}

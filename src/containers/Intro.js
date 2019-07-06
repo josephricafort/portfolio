@@ -17,11 +17,11 @@ const Intro = () => {
         </h1>
       </Box>
       <Box>
-        <h3>
+        <p>
           Hi! I'm Joseph Ricafort and I design and develop data visualizations
           and illustrations. Below are some of the projects and experiments I
           did in the past.
-        </h3>
+        </p>
       </Box>
     </IntroContainer>
   );

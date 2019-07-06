@@ -13,6 +13,10 @@ const ItemContainer = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
+  &:hover {
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+  }
 `;
 
 const LinkWrapper = styled.a`
@@ -35,7 +39,7 @@ const Item = ({ title, description, imageSource, overlayColor, link }) => {
         overlayColor={overlayColor}
       >
         <TextContainer>
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <p>{description}</p>
         </TextContainer>
       </ItemContainer>

@@ -32,6 +32,7 @@ const ContactLink = styled.div`
 
 const Icon = styled.div`
   margin-right: 8px;
+  opacity: 0.5;
 `;
 
 const Contact = () => {
@@ -39,10 +40,10 @@ const Contact = () => {
     <ContactContainer id={"contact"}>
       {/* <h2>Contact</h2> */}
       <TextContainer>
-        <h2>
+        <h3>
           Do you have wonderful ideas in mind? Let's talk about how we can make
           them happen.
-        </h2>
+        </h3>
       </TextContainer>
       <ContactList>
         <ContactLink>
