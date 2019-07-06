@@ -7,6 +7,9 @@ import Twitter from "../icons/Twitter";
 import Behance from "../icons/Behance";
 import LinkedIn from "../icons/LinkedIn";
 
+import ContactData from "../data/ContactData.json";
+import ContactLink from "../components/Contact/ContactLink";
+
 const ContactContainer = styled.div`
   margin: 0 auto;
   padding: 40px 16px 160px 16px;
@@ -24,23 +27,9 @@ const ContactList = styled.div`
   flex-wrap: wrap;
 `;
 
-const ContactLink = styled.div`
-  display: flex;
-  flex-direction: row;
-  flex-basis: 50%;
-  align-content: center;
-  // background-color: magenta;
-`;
-
-const Icon = styled.div`
-  margin-right: 12px;
-  opacity: 0.5;
-`;
-
 const Contact = () => {
   return (
     <ContactContainer id={"contact"}>
-      {/* <h2>Contact</h2> */}
       <TextContainer>
         <h3>
           Do you have wonderful ideas in mind? Let's talk about how we can make
@@ -48,6 +37,16 @@ const Contact = () => {
         </h3>
       </TextContainer>
       <ContactList>
+        {ContactData.map(contact => (
+          <ContactLink
+            type={contact.type}
+            label={contact.label}
+            link={contact.link}
+            // icon={iconSelect(contact.type)}
+          />
+        ))}
+      </ContactList>
+      {/* <ContactList>
         <ContactLink>
           <Icon>
             <Email />
@@ -100,7 +99,7 @@ const Contact = () => {
             </a>
           </strong>
         </ContactLink>
-      </ContactList>
+      </ContactList> */}
     </ContactContainer>
   );
 };
