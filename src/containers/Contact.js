@@ -2,10 +2,17 @@ import React from "react";
 
 import styled from "@emotion/styled";
 
+import Email from "../icons/Envelope";
+import Twitter from "../icons/Twitter";
+
 const ContactContainer = styled.div`
   margin: 0 auto;
   padding: 40px 16px 160px 16px;
   max-width: 640px;
+`;
+
+const TextContainer = styled.div`
+  margin: 0 0 48px 0;
 `;
 
 const ContactList = styled.div`
@@ -16,26 +23,51 @@ const ContactList = styled.div`
 `;
 
 const ContactLink = styled.div`
+  display: flex;
+  flex-direction: row;
   flex-basis: 50%;
+  align-content: center;
   // background-color: magenta;
+`;
+
+const Icon = styled.div`
+  margin-right: 8px;
 `;
 
 const Contact = () => {
   return (
-    <ContactContainer>
+    <ContactContainer id={"contact"}>
       {/* <h2>Contact</h2> */}
-      <div>
+      <TextContainer>
         <h2>
           Do you have wonderful ideas in mind? Let's talk about how we can make
           them happen.
         </h2>
-      </div>
+      </TextContainer>
       <ContactList>
         <ContactLink>
-          <p>josephricafortjr@gmail.com</p>
+          <Icon>
+            <Email />
+          </Icon>
+          <strong>
+            <a href="mailto: josephricafortjr@gmail.com">
+              josephricafortjr@gmail.com
+            </a>
+          </strong>
         </ContactLink>
         <ContactLink>
-          <p>@josephricafort</p>
+          <Icon>
+            <Twitter />
+          </Icon>
+          <strong>
+            <a
+              href="https://twitter.com/josephricafort"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              @josephricafort
+            </a>
+          </strong>
         </ContactLink>
       </ContactList>
     </ContactContainer>

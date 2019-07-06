@@ -9,7 +9,7 @@ const AboutContainer = styled.div`
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id={"about"}>
       <h2>About Joseph</h2>
       <p>
         I used to work with large datasets as a test development engineer which
@@ -19,9 +19,12 @@ const About = () => {
         and development together which led me into this field
       </p>
       <p>
-        Recently, I completed my internship at a Swiss design studio in Zürich,
-        Switzerland that specializes in data visualization and user experience
-        design.
+        Recently, I completed my internship at a{" "}
+        <a href={"http://interactivethings.com"} target={"_blank"}>
+          Swiss design studio
+        </a>{" "}
+        in Zürich, Switzerland that specializes in data visualization and user
+        experience design.
       </p>
     </AboutContainer>
   );

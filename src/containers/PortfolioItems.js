@@ -11,10 +11,10 @@ import jeepneyMap from "../images/jeepney-map.png";
 import eurovision from "../images/eurovision.png";
 
 const images = [
-  { name: circleOfNations, color: null },
-  { name: outOfReach, color: null },
-  { name: jeepneyMap, color: "#432F005C" },
-  { name: eurovision, color: null }
+  { name: circleOfNations, overlayColor: null },
+  { name: outOfReach, overlayColor: null },
+  { name: jeepneyMap, overlayColor: "#432F005C" },
+  { name: eurovision, overlayColor: null }
 ];
 
 const PortfolioItems = () => {
@@ -23,7 +23,8 @@ const PortfolioItems = () => {
       title={item.title}
       description={item.description}
       imageSource={images[index].name}
-      color={images[index].color}
+      overlayColor={images[index].overlayColor}
+      link={item.link}
     />
   ));
 };

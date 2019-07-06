@@ -20,9 +20,13 @@ const Header = () => {
     <HeaderContainer>
       <Title>Joseph Ricafort</Title>
       <Navbar>
-        <Navlink>Blog</Navlink>
-        <Navlink>About</Navlink>
-        <Navlink>Contact</Navlink>
+        {/* <Navlink>Blog</Navlink> */}
+        <Navlink>
+          <a href={"#about"}>About</a>
+        </Navlink>
+        <Navlink>
+          <a href={"#about"}>Contact</a>
+        </Navlink>
       </Navbar>
     </HeaderContainer>
   );

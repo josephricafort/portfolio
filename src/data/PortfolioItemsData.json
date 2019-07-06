@@ -2,21 +2,25 @@
   {
     "title": "Circle of Nations",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things. (external link)",
-    "imageSource": "circle-of-nations"
+    "imageSource": "circle-of-nations",
+    "link": "https://circle-of-nations.interactivethings.io/"
   },
   {
     "title": "Out of Reach",
     "description": "Visualizing income inequalities between countries and between income groups within countries. Created during my internship at Interactive Things. (external link)",
-    "imageSource": "out-of-reach"
+    "imageSource": "out-of-reach",
+    "link": "https://out-of-reach.interactivethings.io/"
   },
   {
     "title": "Jeepney Transport Map",
     "description": "Designing a unique public transport map with a unique mode of transport. (external link)",
-    "imageSource": "jeepney-map"
+    "imageSource": "jeepney-map",
+    "link": ""
   },
   {
     "title": "Eurovision Voting",
     "description": "Which countries voted which countries in Eurovision? A personal project. (external link)",
-    "imageSource": "eurovision"
+    "imageSource": "eurovision",
+    "link": ""
   }
 ]

@@ -8,11 +8,15 @@ const ItemContainer = styled.div`
   height: 260px;
   margin: 12px 0;
   padding: 82px;
-  background-color: ${props => props.color};
+  background-color: ${props => props.overlayColor};
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: darken;
+`;
+
+const LinkWrapper = styled.a`
+  text-decoration: none;
 `;
 
 const TextContainer = styled.div`
@@ -20,20 +24,22 @@ const TextContainer = styled.div`
   color: white;
 `;
 
-const Item = ({ title, description, imageSource, color }) => {
+const Item = ({ title, description, imageSource, overlayColor, link }) => {
   return (
-    <ItemContainer
-      style={{
-        backgroundImage: `url(${imageSource})`
-      }}
-      imageSource={imageSource}
-      color={color}
-    >
-      <TextContainer>
-        <h2>{title}</h2>
-        <p>{description}</p>
-      </TextContainer>
-    </ItemContainer>
+    <LinkWrapper href={link} target="_blank" rel="noopener noreferrer">
+      <ItemContainer
+        style={{
+          backgroundImage: `url(${imageSource})`
+        }}
+        imageSource={imageSource}
+        overlayColor={overlayColor}
+      >
+        <TextContainer>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </TextContainer>
+      </ItemContainer>
+    </LinkWrapper>
   );
 };
 
