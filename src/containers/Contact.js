@@ -33,7 +33,7 @@ const Contact = () => {
       <TextContainer>
         <h4>
           Looking for solutions to data, design and development challenges or
-          need some advice?
+          maybe needing some advice?
         </h4>
         <h3>Let's keep in touch!</h3>
       </TextContainer>

@@ -10,7 +10,7 @@ const AboutContainer = styled.div`
 const About = () => {
   return (
     <AboutContainer id={"about"}>
-      <h2>About Joseph</h2>
+      <h2>About Me</h2>
       <p>
         I have worked with large datasets as a test development engineer in the
         Philippines which helped me realize my love-hate relationship with data.
