@@ -31,10 +31,11 @@ const Contact = () => {
   return (
     <ContactContainer id={"contact"}>
       <TextContainer>
-        <h3>
-          Do you have wonderful ideas in mind? Let's talk about how we can make
-          them happen.
-        </h3>
+        <h4>
+          Looking for solutions to data, design and development challenges or
+          need some advice?
+        </h4>
+        <h3>Let's keep in touch!</h3>
       </TextContainer>
       <ContactList>
         {ContactData.map(contact => (
@@ -46,60 +47,6 @@ const Contact = () => {
           />
         ))}
       </ContactList>
-      {/* <ContactList>
-        <ContactLink>
-          <Icon>
-            <Email />
-          </Icon>
-          <strong>
-            <a href="mailto: josephricafortjr@gmail.com">
-              josephricafortjr@gmail.com
-            </a>
-          </strong>
-        </ContactLink>
-        <ContactLink>
-          <Icon>
-            <Twitter />
-          </Icon>
-          <strong>
-            <a
-              href="https://twitter.com/josephricafort"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @josephricafort
-            </a>
-          </strong>
-        </ContactLink>
-        <ContactLink>
-          <Icon>
-            <Behance />
-          </Icon>
-          <strong>
-            <a
-              href="https://www.behance.net/josephricafort"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Joseph Ricafort
-            </a>
-          </strong>
-        </ContactLink>
-        <ContactLink>
-          <Icon>
-            <LinkedIn />
-          </Icon>
-          <strong>
-            <a
-              href="https://www.linkedin.com/in/joseph-ricafort-83b42b28/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Joseph Ricafort
-            </a>
-          </strong>
-        </ContactLink>
-      </ContactList> */}
     </ContactContainer>
   );
 };

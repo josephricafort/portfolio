@@ -12,7 +12,8 @@ const ContactLinkContainer = styled.div`
   flex-direction: row;
   flex-basis: 50%;
   align-content: center;
-  // background-color: magenta;
+  margin-bottom: 12px;
+  // padding-right: 12px;
 `;
 
 const Icon = styled.div`

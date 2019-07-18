@@ -11,17 +11,17 @@ const IntroContainer = styled.div`
 const Intro = () => {
   return (
     <IntroContainer className="IntroContainer">
-      <Box>
+      {/* <Box>
         <h1>
           Convey meaning and purpose, using the right data and the right visuals
         </h1>
-      </Box>
+      </Box> */}
       <Box>
-        <p>
-          Hi! I'm Joseph Ricafort and I design and develop data visualizations
-          and illustrations. Below are some of the projects and experiments I
-          did in the past.
-        </p>
+        <h2>
+          Hi! I'm Joseph Ricafort and I design and develop data-driven stories,
+          experiences and explorations.
+        </h2>
+        <p>Below are some of the projects and experiments I did in the past.</p>
       </Box>
     </IntroContainer>
   );
