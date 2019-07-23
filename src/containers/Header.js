@@ -39,6 +39,9 @@ const Header = () => {
       <Navbar>
         {/* <Navlink>Blog</Navlink> */}
         <Navlink>
+          Blog <small>(Soon!)</small>
+        </Navlink>
+        <Navlink>
           <a href={"#about"}>About</a>
         </Navlink>
         <Navlink>
