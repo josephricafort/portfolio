@@ -19,10 +19,11 @@ const Intro = () => {
       <Box>
         <h1>Hi! I'm Joseph Ricafort.</h1>
         <h2>
-          I design and develop data-driven stories, experiences and
-          explorations.
+          I help individuals and organizations understand and present complex
+          information in the most beautiful, meaningful and simplest way
+          possible.
         </h2>
-        <p>Below are some of the projects and experiments I did in the past.</p>
+        <p>Below are some of the projects and experiments I did recently.</p>
       </Box>
     </IntroContainer>
   );
