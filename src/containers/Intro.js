@@ -18,11 +18,11 @@ const Intro = () => {
       </Box> */}
       <Box>
         <h1>Hi! I'm Joseph Ricafort.</h1>
-        <h2>
+        <h3>
           I help individuals and organizations understand and present complex
           information in the most beautiful, meaningful and simplest way
           possible.
-        </h2>
+        </h3>
         <p>Below are some of the projects and experiments I did recently.</p>
       </Box>
     </IntroContainer>
