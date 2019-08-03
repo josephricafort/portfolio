@@ -38,7 +38,9 @@ const Header = () => {
       {/* <Title>Joseph Ricafort</Title> */}
       <Navbar>
         {/* <Navlink>Blog</Navlink> */}
-        <Navlink>Blog (Soon!)</Navlink>
+        <Navlink>
+          <a href={"blog.josericafort.com"}>Blog</a>
+        </Navlink>
         <Navlink>
           <a href={"#about"}>About</a>
         </Navlink>
