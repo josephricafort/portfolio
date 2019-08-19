@@ -24,11 +24,19 @@ const LinkWrapper = styled.a`
 `;
 
 const TextContainer = styled.div`
-  max-width: 800px;
-  color: white;
+  margin: 180px auto;
+  max-width: 640px;
+  color: ${props => props.fontColor};
 `;
 
-const Item = ({ title, description, imageSource, overlayColor, link }) => {
+const Item = ({
+  title,
+  description,
+  imageSource,
+  overlayColor,
+  fontColor,
+  link
+}) => {
   return (
     <LinkWrapper href={link} target="_blank" rel="noopener noreferrer">
       <ItemContainer
@@ -38,8 +46,10 @@ const Item = ({ title, description, imageSource, overlayColor, link }) => {
         imageSource={imageSource}
         overlayColor={overlayColor}
       >
-        <TextContainer>
-          <h3>{title}</h3>
+        <TextContainer fontColor={fontColor}>
+          <h3>
+            <strong>{title}</strong>
+          </h3>
           <p>{description}</p>
         </TextContainer>
       </ItemContainer>

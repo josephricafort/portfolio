@@ -19,9 +19,8 @@ const Intro = () => {
       <Box>
         <h1>Hi! I'm Joseph Ricafort.</h1>
         <h3>
-          I help individuals and organizations understand and present complex
-          information in the most beautiful, meaningful and simplest way
-          possible.
+          I analyze, design, develop and present complex information in the most
+          beautiful, meaningful and simplest way possible.
         </h3>
         <p>Below are some of the projects and experiments I did recently.</p>
       </Box>

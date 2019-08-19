@@ -1,5 +1,11 @@
 [
   {
+    "title": "10 Years of \"Exclusive\" Growth",
+    "description": "Did the regional provinces experience the same economic growth as what the whole country experiences?",
+    "imageSource": "ph-exclusive-growth-cover",
+    "link": "https://blog.josericafort.com/"
+  },
+  {
     "title": "Circle of Nations",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things. (external link)",
     "imageSource": "circle-of-nations",
@@ -12,7 +18,7 @@
     "link": "https://out-of-reach.interactivethings.io/"
   },
   {
-    "title": "Jeepney Transport Map",
+    "title": "Cebu City Jeepney Transport Map",
     "description": "Designing a unique public transport map with a unique mode of transport. (external link)",
     "imageSource": "jeepney-map",
     "link": "https://www.behance.net/gallery/82531129/Cebu-Jeepney-Transport-Map"

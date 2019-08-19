@@ -5,16 +5,18 @@ import Item from "../components/PortfolioItems/Item";
 
 /* Need to import images individually for create-react-app */
 /* Using url("./") directly doesn't work */
+import phExclusiveGrowth from "../images/ph-exclusive-growth-cover.png";
 import circleOfNations from "../images/circle-of-nations.png";
 import outOfReach from "../images/out-of-reach.png";
 import jeepneyMap from "../images/jeepney-map.png";
 import eurovision from "../images/eurovision.png";
 
 const images = [
-  { name: circleOfNations, overlayColor: null },
-  { name: outOfReach, overlayColor: null },
-  { name: jeepneyMap, overlayColor: "#432F005C" },
-  { name: eurovision, overlayColor: null }
+  { name: phExclusiveGrowth, overlayColor: "#4343488", fontColor: "black" },
+  { name: circleOfNations, overlayColor: null, fontColor: "white" },
+  { name: outOfReach, overlayColor: null, fontColor: "white" },
+  { name: jeepneyMap, overlayColor: "#432F005C", fontColor: "white" },
+  { name: eurovision, overlayColor: "null", fontColor: "white" }
 ];
 
 const PortfolioItems = () => {
@@ -24,6 +26,7 @@ const PortfolioItems = () => {
       description={item.description}
       imageSource={images[index].name}
       overlayColor={images[index].overlayColor}
+      fontColor={images[index].fontColor}
       link={item.link}
     />
   ));
