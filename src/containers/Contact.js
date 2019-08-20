@@ -31,11 +31,11 @@ const Contact = () => {
   return (
     <ContactContainer id={"contact"}>
       <TextContainer>
-        <h4>
+        {/* <h4>
           Looking for solutions to data, design and development challenges or
           maybe needing some advice?
-        </h4>
-        <h3>Let's keep in touch!</h3>
+        </h4> */}
+        <h3>Get in touch!</h3>
       </TextContainer>
       <ContactList>
         {ContactData.map(contact => (
