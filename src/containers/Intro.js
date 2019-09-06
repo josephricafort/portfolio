@@ -17,12 +17,12 @@ const Intro = () => {
         </h1>
       </Box> */}
       <Box>
-        <h1>Hi! I'm Joseph Ricafort.</h1>
+        <h1>Hi! I'm Joseph Ricafort.</h1>{" "}
         <h3>
-          I analyze, design, develop and present complex information in the most
-          beautiful, meaningful and simplest way possible.
+          I believe that design and data-driven stories has the power to shape
+          our way of thinking, our lens to better understand our complex
+          society, and our guide to make better, well-informed decisions.
         </h3>
-        <p>Below are some of the projects and experiments I did recently.</p>
       </Box>
     </IntroContainer>
   );
