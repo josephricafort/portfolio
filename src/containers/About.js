@@ -32,6 +32,17 @@ const About = () => {
       </p> */}
       <h3>Recognitions</h3>
       <p>
+        <a href="https://www.informationisbeautifulawards.com/showcase/3987-10-years-of-exclusive-economic-growth">
+          <strong>
+            10 Years of "Exclusive" Economic Growth - Longlisted, Kantar
+            Information is Beautiful Awards
+          </strong>
+        </a>
+        <br />
+        Did the rural provinces experienced the same economic growth as the
+        urban capital of Metro Manila within the past 10 years?
+      </p>
+      <p>
         <a href="http://hdr.undp.org/en/content/2019-human-development-data-visualization-challenge-winner-gender-inequality-visual-story">
           <strong>
             Out of Reach - 2nd place, 2019 Human Development Data Visualization
@@ -41,7 +52,16 @@ const About = () => {
         <br />
         Visualizing income inequality within and between countries
       </p>
-      <h3>Work Experience</h3>
+      <h3>Where I Work or Used To Work</h3>
+      <p>
+        <strong>
+          <a href="https://interactivethings.com">
+            Data Visualization Designer - <italic>The Straits Times</italic>
+          </a>
+        </strong>
+        <br />
+        Singapore
+      </p>
       <p>
         <strong>
           <a href="https://interactivethings.com">
