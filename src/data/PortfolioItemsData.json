@@ -7,9 +7,15 @@
   },
   {
     "title": "Circle of Nations",
-    "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things. (external link)",
+    "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things, a Switzerland based Data Visualization and UX Design studio.",
     "imageSource": "circle-of-nations",
     "link": "https://circle-of-nations.interactivethings.io/"
+  },
+  {
+    "title": "Visualizing Philippine Tourism",
+    "description": "Visualizing the Trends on Tourists and Travel Destinations in the Philippines by Local and Foreign Tourists.",
+    "imageSource": "tourist-arrival-philippines",
+    "link": "https://tourist-arrival-philippines.netlify.com/"
   },
   {
     "title": "Out of Reach",

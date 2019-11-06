@@ -7,13 +7,19 @@ import Item from "../components/PortfolioItems/Item";
 /* Using url("./") directly doesn't work */
 import phExclusiveGrowth from "../images/ph-exclusive-growth-cover.png";
 import circleOfNations from "../images/circle-of-nations.png";
+import touristArrivalPhilippines from "../images/tourist-arrival-philippines.png";
 import outOfReach from "../images/out-of-reach.png";
 import jeepneyMap from "../images/jeepney-map.png";
 import eurovision from "../images/eurovision.png";
 
 const images = [
-  { name: phExclusiveGrowth, overlayColor: "#4343488", fontColor: "black" },
+  { name: phExclusiveGrowth, overlayColor: "#432F000C", fontColor: "black" },
   { name: circleOfNations, overlayColor: null, fontColor: "white" },
+  {
+    name: touristArrivalPhilippines,
+    overlayColor: "#432F000C",
+    fontColor: "black"
+  },
   { name: outOfReach, overlayColor: null, fontColor: "white" },
   { name: jeepneyMap, overlayColor: "#432F005C", fontColor: "white" },
   { name: eurovision, overlayColor: "null", fontColor: "white" }
