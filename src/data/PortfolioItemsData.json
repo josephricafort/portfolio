@@ -1,15 +1,15 @@
 [
   {
-    "title": "10 Years of \"Exclusive\" Growth",
-    "description": "Did the regional provinces experience the same economic growth as what the whole country experiences?",
-    "imageSource": "ph-exclusive-growth-cover",
-    "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/"
-  },
-  {
     "title": "Circle of Nations",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things, a Switzerland based Data Visualization and UX Design studio.",
     "imageSource": "circle-of-nations",
     "link": "https://circle-of-nations.interactivethings.io/"
+  },
+  {
+    "title": "10 Years of \"Exclusive\" Economic Growth",
+    "description": "Did the regional provinces experience the same economic growth as what the whole country experiences?",
+    "imageSource": "ph-exclusive-growth-cover",
+    "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/"
   },
   {
     "title": "Visualizing Philippine Tourism",

@@ -13,8 +13,8 @@ import jeepneyMap from "../images/jeepney-map.png";
 import eurovision from "../images/eurovision.png";
 
 const images = [
-  { name: phExclusiveGrowth, overlayColor: "#432F000C", fontColor: "black" },
   { name: circleOfNations, overlayColor: null, fontColor: "white" },
+  { name: phExclusiveGrowth, overlayColor: "#432F000C", fontColor: "black" },
   {
     name: touristArrivalPhilippines,
     overlayColor: "#432F000C",
