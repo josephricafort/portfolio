@@ -32,6 +32,17 @@ const About = () => {
       </p> */}
       <h3>Recognitions</h3>
       <p>
+        <a href="https://www.datavisualizationsociety.com/annual-survey-challenge/2019/10/22/challenge-title-3a8ry">
+          <strong>
+            Data Visualization Society: Annual Survey Challenge - 3rd Place,
+            Exploratory <br />
+            How Represented Are You In The Dataviz Community
+          </strong>
+        </a>
+        <br />
+        Is you background well represented in the data visualization community?
+      </p>
+      <p>
         <a href="https://www.informationisbeautifulawards.com/showcase/3987-10-years-of-exclusive-economic-growth">
           <strong>
             10 Years of "Exclusive" Economic Growth - Longlisted, Kantar

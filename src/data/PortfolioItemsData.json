@@ -18,6 +18,12 @@
     "link": "https://tourist-arrival-philippines.netlify.com/"
   },
   {
+    "title": "How Represented Are You In The Data Visualization Community?",
+    "description": "Is your background rare in the community of data visualization professionals and enthusiasts?",
+    "imageSource": "dataviz-community-survey",
+    "link": "https://blog.josericafort.com/posts/dataviz-community-survey-representation-diversity/"
+  },
+  {
     "title": "Out of Reach",
     "description": "Visualizing income inequalities between countries and between income groups within countries. Created during my internship at Interactive Things. (external link)",
     "imageSource": "out-of-reach",
