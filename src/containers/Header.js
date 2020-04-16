@@ -2,7 +2,7 @@ import React from "react";
 
 import styled from "@emotion/styled";
 
-import logo from "../images/jricafort-logo.png";
+import logo from "../images/jricafort-logo/logo.png"
 
 const HeaderContainer = styled.div`
   display: flex;

@@ -3,42 +3,70 @@
     "title": "Circle of Nations",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things, a Switzerland based Data Visualization and UX Design studio.",
     "imageSource": "circle-of-nations",
-    "link": "https://circle-of-nations.interactivethings.io/"
+    "link": "https://circle-of-nations.interactivethings.io/",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
   },
   {
     "title": "10 Years of \"Exclusive\" Economic Growth",
     "description": "Did the regional provinces experience the same economic growth as what the whole country experiences?",
     "imageSource": "ph-exclusive-growth-cover",
-    "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/"
+    "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/",
+    "styles": {
+      "overlayColor": "#432F000C",
+      "fontColor": "black"
+    }
   },
   {
     "title": "Visualizing Philippine Tourism",
     "description": "Visualizing the Trends on Tourists and Travel Destinations in the Philippines by Local and Foreign Tourists.",
     "imageSource": "tourist-arrival-philippines",
-    "link": "https://tourist-arrival-philippines.netlify.com/"
+    "link": "https://tourist-arrival-philippines.netlify.com/",
+    "styles": {
+      "overlayColor": "#432F000C",
+      "fontColor": "black"
+    }
   },
   {
     "title": "How Represented Are You In The Data Visualization Community?",
     "description": "Is your background rare in the community of data visualization professionals and enthusiasts?",
     "imageSource": "dataviz-community-survey",
-    "link": "https://blog.josericafort.com/posts/dataviz-community-survey-representation-diversity/"
+    "link": "https://blog.josericafort.com/posts/dataviz-community-survey-representation-diversity/",
+    "styles": {
+      "overlayColor": "#432F000C",
+      "fontColor": "black"
+    }
   },
   {
     "title": "Out of Reach",
     "description": "Visualizing income inequalities between countries and between income groups within countries. Created during my internship at Interactive Things. (external link)",
     "imageSource": "out-of-reach",
-    "link": "https://out-of-reach.interactivethings.io/"
+    "link": "https://out-of-reach.interactivethings.io/",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
   },
   {
     "title": "Cebu City Jeepney Transport Map",
     "description": "Designing a unique public transport map with a unique mode of transport. (external link)",
     "imageSource": "jeepney-map",
-    "link": "https://www.behance.net/gallery/82531129/Cebu-Jeepney-Transport-Map"
+    "link": "https://www.behance.net/gallery/82531129/Cebu-Jeepney-Transport-Map",
+    "styles": {
+      "overlayColor": "#432F005C",
+      "fontColor": "white"
+    }
   },
   {
     "title": "Eurovision Country Voting",
     "description": "Which countries voted which countries in Eurovision? A personal project. (external link)",
     "imageSource": "eurovision",
-    "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting"
+    "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
   }
 ]

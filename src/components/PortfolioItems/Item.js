@@ -6,9 +6,9 @@ const ItemContainer = styled.div`
   display: flex;
   align-items: center;
   height: 260px;
-  margin: 12px 0;
   padding: 82px;
   background-color: ${props => props.overlayColor};
+  background-image: url(${props => props.imageSource});
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@ const LinkWrapper = styled.a`
 `;
 
 const TextContainer = styled.div`
-  margin: 180px auto;
+  margin: auto;
   max-width: 640px;
   color: ${props => props.fontColor};
 `;
@@ -33,20 +33,20 @@ const Item = ({
   title,
   description,
   imageSource,
-  overlayColor,
-  fontColor,
-  link
+  link,
+  styles
 }) => {
+  console.log("." + imageSource);
   return (
-    <LinkWrapper href={link} target="_blank" rel="noopener noreferrer">
+    <LinkWrapper className="linkWrapper" href={link} target="_blank" rel="noopener noreferrer">
       <ItemContainer
-        style={{
-          backgroundImage: `url(${imageSource})`
-        }}
+        className="itemContainer"
         imageSource={imageSource}
-        overlayColor={overlayColor}
+        overlayColor={styles.overlayColor}
       >
-        <TextContainer fontColor={fontColor}>
+        <TextContainer 
+          className="textContainer"
+          fontColor={styles.fontColor}>
           <h3>
             <strong>{title}</strong>
           </h3>
