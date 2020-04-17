@@ -17,7 +17,7 @@ const Container = styled.div`
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
         <Story />
         {/* <Recognitions /> */}
         <Experience />
