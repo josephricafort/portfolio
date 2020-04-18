@@ -5,8 +5,9 @@ import styled from "@emotion/styled";
 const ItemContainer = styled.div`
   display: flex;
   align-items: center;
+  align-content: center;
   height: 260px;
-  padding: 82px;
+  padding: 80px;
   background-color: ${props => props.overlayColor};
   background-image: url(${props => props.imageSource});
   background-position: center;
@@ -16,6 +17,9 @@ const ItemContainer = styled.div`
   &:hover {
     opacity: 0.75;
     filter: alpha(opacity=75); /* For IE8 and earlier */
+  }
+  @media (max-width: 400px) {
+    padding: 24px;
   }
 `;
 
@@ -27,6 +31,11 @@ const TextContainer = styled.div`
   margin: auto;
   max-width: 640px;
   color: ${props => props.fontColor};
+  text-align: center;
+`;
+
+const Title = styled.h3`
+  margin: 0;
 `;
 
 const Item = ({
@@ -47,9 +56,9 @@ const Item = ({
         <TextContainer 
           className="textContainer"
           fontColor={styles.fontColor}>
-          <h3>
+          <Title>
             <strong>{title}</strong>
-          </h3>
+          </Title>
           <p>{description}</p>
         </TextContainer>
       </ItemContainer>
