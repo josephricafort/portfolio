@@ -5,7 +5,7 @@ import styled from "@emotion/styled";
 const Container = styled.div`
     flex: 1 1 360px;
     max-width: 480px;
-    padding-right: 60px;
+    // padding-right: 60px;
 `;
 
 const Experience = () => {
