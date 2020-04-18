@@ -22,6 +22,7 @@ const Intro = () => {
         </Box> */}
         <Box>
           <h1>Hi! I'm Joseph Ricafort.</h1>{" "}
+          <h3>I craft <em>visual narratives</em> and <em>explorations</em> through <strong>data</strong> and <strong>design</strong>.</h3>
           <p>
             I believe that design and data-driven stories has the power to shape
             our way of thinking, our lens to better understand our complex
