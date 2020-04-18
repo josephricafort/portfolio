@@ -11,7 +11,7 @@ const Container = styled.div`
 const Experience = () => {
     return (
         <Container>
-            <h3>Who I worked with</h3>
+            <h2>Who I worked with</h2>
             <p>
                 <strong>
                     <a href="https://interactivethings.com">
