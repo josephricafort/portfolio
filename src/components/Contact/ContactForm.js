@@ -27,7 +27,7 @@ const ContactForm = () => {
                 <br />
                 <MyTextField id="outlined-basic" label="Email" variant="outlined" type="email" name="email"/>
                 <br />
-                <MyTextField id="outlined-basic" label="What do you want to say?" variant="outlined" type="textarea" multiline rowsMax={4} rows={4} name="message"/>
+                <MyTextField id="outlined-basic" label="Message" variant="outlined" type="textarea" multiline rowsMax={4} rows={4} name="message"/>
                 <br />
                 <MyButton variant="outlined" color="primary" type="submit">Send</MyButton>
                 </div>
