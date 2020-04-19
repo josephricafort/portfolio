@@ -1,6 +1,7 @@
 import React from 'react';
 
 import styled from "@emotion/styled";
+import ContainerUI from "@material-ui/core/Container";
 
 const Container = styled.div`
     display: flex;
@@ -48,8 +49,9 @@ const Li = styled.li`
     }
 `;
 
-const Expertise = ({ children }) => {
-    return <Container>
+const Expertise = () => {
+    return <ContainerUI>
+        <Container>
             <ExpertiseCard>
                 <Icon></Icon>
                 <Title>Data and Intuition</Title>
@@ -77,7 +79,8 @@ const Expertise = ({ children }) => {
                     <Li><strong>Approach</strong> - user centered design approach</Li>
                 </ul>
             </ExpertiseCard>
-        </Container>;
+        </Container>
+    </ContainerUI>
   };
   
   export default Expertise;

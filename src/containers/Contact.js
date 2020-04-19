@@ -17,7 +17,7 @@ const Container = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px 0px 160px 0px;
+  padding: 90px 0px;
   @media (max-width: 400px) {
     flex-basis: 100%;
   }

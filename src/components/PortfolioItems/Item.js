@@ -8,6 +8,7 @@ const ItemContainer = styled.div`
   align-content: center;
   height: 260px;
   padding: 80px;
+  border-radius: 3px;
   background-color: ${props => props.overlayColor};
   background-image: url(${props => props.imageSource});
   background-position: center;

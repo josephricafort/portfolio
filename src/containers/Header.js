@@ -1,10 +1,11 @@
 import React from "react";
 
 import styled from "@emotion/styled";
+import ContainerUI from "@material-ui/core/Container";
 
 import logo from "../images/jricafort-logo/logo.png"
 
-const HeaderContainer = styled.div`
+const Container = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,22 +34,24 @@ const Logo = styled.div`
 
 const Header = () => {
   return (
-    <HeaderContainer>
-      <Logo />
-      {/* <Title>Joseph Ricafort</Title> */}
-      <Navbar>
-        {/* <Navlink>Blog</Navlink> */}
-        {/* <Navlink>
-          <a href={"https://blog.josericafort.com"}>Blog</a>
-        </Navlink> */}
-        <Navlink>
-          <a href={"#about"}>About</a>
-        </Navlink>
-        <Navlink>
-          <a href={"#contact"}>Contact</a>
-        </Navlink>
-      </Navbar>
-    </HeaderContainer>
+    <ContainerUI>
+      <Container>
+        <Logo />
+        {/* <Title>Joseph Ricafort</Title> */}
+        <Navbar>
+          {/* <Navlink>Blog</Navlink> */}
+          {/* <Navlink>
+            <a href={"https://blog.josericafort.com"}>Blog</a>
+          </Navlink> */}
+          <Navlink>
+            <a href={"#about"}>About</a>
+          </Navlink>
+          <Navlink>
+            <a href={"#contact"}>Contact</a>
+          </Navlink>
+        </Navbar>
+      </Container>
+    </ContainerUI>
   );
 };
 

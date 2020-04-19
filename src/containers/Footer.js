@@ -2,12 +2,12 @@ import React from "react";
 
 import styled from "@emotion/styled";
 
-const FooterContainer = styled.div`
+const Container = styled.div`
   background-color: #f5f5f5;
 `;
 
 const Footer = ({ children }) => {
-  return <FooterContainer>{children}</FooterContainer>;
+  return <Container>{children}</Container>;
 };
 
 export default Footer;

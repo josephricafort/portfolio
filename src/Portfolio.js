@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 
-import ContainerUI from "@material-ui/core/Container";
+import styled from "@emotion/styled";
 
 /* Components */
 import Header from "./containers/Header";
@@ -11,18 +11,22 @@ import About from "./containers/About";
 import Contact from "./containers/Contact";
 import Footer from "./containers/Footer";
 import Expertise from "./containers/Expertise";
+import Blog from "./containers/Blog";
 
-/* Images */
+const Container = styled.div`
+
+`;
 
 function Portfolio() {
   return [
-    <ContainerUI maxWidth="lg" className="Portfolio">
+    <Container maxWidth="lg" className="Portfolio">
       <Header className="Header" />
       <Intro className="Header" />
       <PortfolioItems className="Portfolio"/>
       <Expertise className="Expertise" />
+      <Blog className="Blog"/>
       <About className="About" />
-    </ContainerUI>,
+    </Container>,
     <Footer className="Footer">
       <Contact className="Contact" />
     </Footer>

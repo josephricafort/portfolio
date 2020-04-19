@@ -23,7 +23,7 @@ const ContactForm = () => {
         <Container>
             <form action="https://getform.io/f/e1dc7bfe-bb57-45a0-8cda-9dd1c382dc9f" method="POST">
                 <div>
-                <MyTextField id="outlined-basic" label="First name" variant="outlined" type="text" name="name"/>
+                <MyTextField id="outlined-basic" label="First name" variant="outlined" type="text" name="name" inputProps={{style: {fontFamily: '"DM Sans", sans serif'} }}/>
                 <br />
                 <MyTextField id="outlined-basic" label="Email" variant="outlined" type="email" name="email"/>
                 <br />

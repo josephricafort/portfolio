@@ -1,6 +1,7 @@
 import React from "react";
 
 import styled from "@emotion/styled";
+import ContainerUI from "@material-ui/core/Container";
 
 import portfolioItemsData from "../../data/PortfolioItemsData.json";
 import Item from "../../components/PortfolioItems/Item";
@@ -24,6 +25,7 @@ const Child = styled.div`
 /* Using url("./") directly doesn't work */
 
 const PortfolioItems = () => 
+<ContainerUI>
   <Container className="portfolioItemsContainer">
     { portfolioItemsData.map((item, index) => {
       return (
@@ -39,5 +41,6 @@ const PortfolioItems = () =>
       )
   })}
   </Container>
+  </ContainerUI>
 
 export default PortfolioItems;

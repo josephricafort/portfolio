@@ -1,6 +1,8 @@
 import React from "react";
 
 import styled from "@emotion/styled";
+import ContainerUI from "@material-ui/core/Container";
+
 import Story from "../components/About/Story";
 import Recognitions from "../components/About/Recognitions";
 import Experience from "../components/About/Experience";
@@ -24,16 +26,18 @@ const Column = styled.div`
 
 const About = () => {
   return (
-    <Container id="about">
-        <Column>
-          <Story />
-          <Skills />
-        </Column>
-        <Column>
-          {/* <Recognitions /> */}
-          <Experience />
-        </Column>
-    </Container>
+    <ContainerUI>
+      <Container id="about">
+          <Column>
+            <Story />
+            <Skills />
+          </Column>
+          <Column>
+            {/* <Recognitions /> */}
+            <Experience />
+          </Column>
+      </Container>
+    </ContainerUI>
   );
 };
 
