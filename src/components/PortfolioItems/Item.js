@@ -19,8 +19,8 @@ const ItemContainer = styled.div`
     opacity: 0.75;
     filter: alpha(opacity=75); /* For IE8 and earlier */
   }
-  @media (max-width: 400px) {
-    padding: 24px;
+  @media (max-width: 800px) {
+    padding: 48px;
   }
 `;
 
