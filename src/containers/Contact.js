@@ -58,7 +58,7 @@ const Contact = () => {
               Looking for solutions to data, design and development challenges or
               maybe needing some advice?
             </h4> */}
-            <p>Any projects you have in mind or any questions you want answered? Feel free to send or leave me a message and I’ll try to get back as soon as possible. :-)</p>
+            <p>Any projects you have in mind or any questions you want answered? Feel free to send or leave me a message and I’ll get in touch as soon as possible. :-)</p>
           </TextContainer>
           <ContactList>
             {ContactData.map(contact => (
