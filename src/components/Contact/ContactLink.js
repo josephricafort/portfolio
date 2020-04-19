@@ -7,12 +7,12 @@ import Twitter from "../../icons/Twitter";
 import Behance from "../../icons/Behance";
 import LinkedIn from "../../icons/LinkedIn";
 
-const ContactLinkContainer = styled.div`
+const Container = styled.div`
   display: flex;
   flex-direction: row;
   flex-basis: 50%;
   align-content: center;
-  margin-bottom: 12px;
+  margin: 6px 0;
   // padding-right: 12px;
 `;
 
@@ -38,12 +38,12 @@ const iconSelect = type => {
 
 const ContactLink = ({ type, label, link, icon }) => {
   return (
-    <ContactLinkContainer>
+    <Container>
       <Icon>{iconSelect(type)}</Icon>
       <strong>
         <a href={link}>{label}</a>
       </strong>
-    </ContactLinkContainer>
+    </Container>
   );
 };
 

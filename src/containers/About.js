@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 import Story from "../components/About/Story";
 import Recognitions from "../components/About/Recognitions";
 import Experience from "../components/About/Experience";
+import Skills from "../components/About/Skills/Skills";
 
 const Container = styled.div`
   display: flex;
@@ -15,12 +16,23 @@ const Container = styled.div`
   }
 `;
 
+const Column = styled.div`
+  flex: 1 1 360px;
+  max-width: 480px;
+  padding-right: 60px;
+`;
+
 const About = () => {
   return (
     <Container id="about">
-        <Story />
-        {/* <Recognitions /> */}
-        <Experience />
+        <Column>
+          <Story />
+          <Skills />
+        </Column>
+        <Column>
+          {/* <Recognitions /> */}
+          <Experience />
+        </Column>
     </Container>
   );
 };
