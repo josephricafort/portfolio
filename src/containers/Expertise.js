@@ -1,19 +1,23 @@
 import React from 'react';
 
-import styled from "@emotion/styled";
+import styledEmo from "@emotion/styled";
+import { styled } from "@material-ui/core/styles";
 import ContainerUI from "@material-ui/core/Container";
 
-const Container = styled.div`
+const MyContainerUI = styled(ContainerUI)({
+    margin: '180px auto',
+});
+
+const Container = styledEmo.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 180px 0;
     @media (max-width: 400px){
         flex-direction: column;
     }
 `;
 
-const ExpertiseCard = styled.div`
+const ExpertiseCard = styledEmo.div`
     flex: 1 1 240px;
     border: 1px solid #CCCCCC;
     border-radius: 3px;
@@ -21,7 +25,7 @@ const ExpertiseCard = styled.div`
     margin: 6px;
 `;
 
-const Icon = styled.div`
+const Icon = styledEmo.div`
     display: none; // remove if to add icon
     background-color: grey;
     border-radius: 40px;
@@ -30,13 +34,17 @@ const Icon = styled.div`
     margin: auto;
 `;
 
-const Title = styled.h4`
+const Title = styledEmo.h2`
+    text-align: center;
+`;
+
+const H4 = styledEmo.h4`
     max-width: 360px;
     margin: 24px auto;
     text-align: center;
 `;
 
-const Li = styled.li`
+const Li = styledEmo.li`
     list-style-type: none;
     position: relative;
 
@@ -50,11 +58,12 @@ const Li = styled.li`
 `;
 
 const Expertise = () => {
-    return <ContainerUI>
+    return <MyContainerUI maxWidth="lg">
+        <Title>What I Always Aim For</Title>
         <Container>
             <ExpertiseCard>
                 <Icon></Icon>
-                <Title>Data and Intuition</Title>
+                <H4>Data and Intuition</H4>
                 <ul>
                     <Li><strong>Structure</strong> - sourcing, shaping and crunching data</Li>
                     <Li><strong>Analyze</strong> - data not merely as numbers but also as representations</Li>
@@ -63,7 +72,7 @@ const Expertise = () => {
             </ExpertiseCard>
             <ExpertiseCard>
                 <Icon></Icon>
-                <Title>Stories and Exploratories</Title>
+                <H4>Stories and Exploratories</H4>
                 <ul>
                     <Li><strong>Narrative</strong> - flowing narrative with simplicity and clarity</Li>
                     <Li><strong>Exploration</strong> - allow users to get lost and discover</Li>
@@ -72,7 +81,7 @@ const Expertise = () => {
             </ExpertiseCard>
             <ExpertiseCard>
                 <Icon></Icon>
-                <Title>Design and Development</Title>
+                <H4>Design and Development</H4>
                 <ul>
                     <Li><strong>Engagement</strong> - making things beautiful</Li>
                     <Li><strong>Function</strong> - everything is not about fanciness, but also usefulness</Li>
@@ -80,7 +89,7 @@ const Expertise = () => {
                 </ul>
             </ExpertiseCard>
         </Container>
-    </ContainerUI>
+    </MyContainerUI>
   };
   
   export default Expertise;
