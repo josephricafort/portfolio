@@ -58,7 +58,7 @@ const Item = ({
           className="textContainer"
           fontColor={styles.fontColor}>
           <Title>
-            <strong>{title}</strong>
+            {title}
           </Title>
           <p>{description}</p>
         </TextContainer>

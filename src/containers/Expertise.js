@@ -59,14 +59,14 @@ const Li = styledEmo.li`
 
 const Expertise = () => {
     return <MyContainerUI maxWidth="lg">
-        <Title>What I Always Aim For</Title>
+        <Title>What I Always Strive For</Title>
         <Container>
             <ExpertiseCard>
                 <Icon></Icon>
                 <H4>Data and Intuition</H4>
                 <ul>
                     <Li><strong>Structure</strong> - sourcing, shaping and crunching data</Li>
-                    <Li><strong>Analyze</strong> - data not merely as numbers but also as representations</Li>
+                    <Li><strong>Analysis</strong> - data not merely as numbers but also as representations</Li>
                     <Li><strong>Perspective</strong> - looking for patterns at different angles</Li>
                 </ul>
             </ExpertiseCard>
