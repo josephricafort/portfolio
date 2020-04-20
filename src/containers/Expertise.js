@@ -4,6 +4,10 @@ import styledEmo from "@emotion/styled";
 import { styled } from "@material-ui/core/styles";
 import ContainerUI from "@material-ui/core/Container";
 
+import dataIcon from "../images/expertise-icons/data.png";
+import storiesIcon from "../images/expertise-icons/stories.png";
+import designIcon from "../images/expertise-icons/design.png";
+
 const MyContainerUI = styled(ContainerUI)({
     margin: '180px auto',
 });
@@ -19,15 +23,22 @@ const Container = styledEmo.div`
 
 const ExpertiseCard = styledEmo.div`
     flex: 1 1 240px;
+    background-color: white;
     border: 1px solid #CCCCCC;
     border-radius: 3px;
-    padding: 24px 24px 36px;
-    margin: 6px;
+    padding: 48px 24px 36px 24px;
+    margin: 12px;
+    -moz-box-shadow:    1px 1px 1px 1px #cccccc45;
+    -webkit-box-shadow: 1px 1px 1px 1px #cccccc45;
+    box-shadow:         1px 1px 1px 1px #cccccc45;
 `;
 
 const Icon = styledEmo.div`
-    display: none; // remove if to add icon
     background-color: grey;
+    background-image: url(${props => props.image});
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 40px;
     height: 80px;
     width: 80px;
@@ -62,7 +73,7 @@ const Expertise = () => {
         <Title>What I Always Strive For</Title>
         <Container>
             <ExpertiseCard>
-                <Icon></Icon>
+                <Icon image={dataIcon}></Icon>
                 <H4>Data and Intuition</H4>
                 <ul>
                     <Li><strong>Structure</strong> - sourcing, shaping and crunching data</Li>
@@ -71,7 +82,7 @@ const Expertise = () => {
                 </ul>
             </ExpertiseCard>
             <ExpertiseCard>
-                <Icon></Icon>
+                <Icon image={storiesIcon}></Icon>
                 <H4>Stories and Exploratories</H4>
                 <ul>
                     <Li><strong>Narrative</strong> - flowing narrative with simplicity and clarity</Li>
@@ -80,7 +91,7 @@ const Expertise = () => {
                 </ul>
             </ExpertiseCard>
             <ExpertiseCard>
-                <Icon></Icon>
+                <Icon image={designIcon}></Icon>
                 <H4>Design and Development</H4>
                 <ul>
                     <Li><strong>Engagement</strong> - making things beautiful</Li>
