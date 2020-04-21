@@ -11,17 +11,13 @@ const Container = styled.div`
 const Story = () => {
     return (
         <Container>
-            <h2>About Me</h2>
+            <h2>Why data and design</h2>
             <p>
-                I analyze, design, develop and present complex information in the most
-                beautiful, meaningful and simplest way possible.
-            </p>
-            <p>
-                I have worked with large datasets as a test development engineer in the
-                Philippines which helped me realize my love-hate relationship with data.
-                I also used to do creative work as a hobby, playing around with
+                I used to work with large datasets as a test development engineer in the
+                Philippines. I also do creative work as a hobby, playing around with
                 presentations and infographics. I got fascinated with the idea of
-                combining data, design and code together which led me into this field.
+                combining data, design and code together which led me to discover and brought
+                me to the field of data visualizations and data stories.
             </p>
         </Container>
     )

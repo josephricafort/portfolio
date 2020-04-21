@@ -43,7 +43,7 @@ const Blog = () => {
     return (
         <Container>
             <MyContainerUI>
-                <Title>Blog</Title>
+                <Title>How I Do It (Blog)</Title>
                 <p>Inside look at my projects, thought processes, sketches, dummy projects and out of this world ideas.</p>
                 <MyButton variant="outlined" color="primary" disabled>Soon!</MyButton>
             </MyContainerUI>

@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <ContainerUI maxWidth="lg">
       <Container id={"contact"}>
-        <Title>Get in touch!</Title>
+        <Title>How To Get In Touch</Title>
         <Column>
           <TextContainer>
             {/* <h4>

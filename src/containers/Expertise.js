@@ -63,14 +63,14 @@ const Li = styledEmo.li`
         content: '■';
         position: absolute;
         left: -1.1em;          /* Adjust this value so that it appears where you want. */
-        top: .2em;
         font-size: 0.8em;      /* Adjust this value so that it appears what size you want. */
+        opacity: 0.25;
     }
 `;
 
 const Expertise = () => {
     return <MyContainerUI maxWidth="lg">
-        <Title>What I Always Strive For</Title>
+        <Title>What I Strive For</Title>
         <Container>
             <ExpertiseCard>
                 <Icon image={dataIcon}></Icon>
