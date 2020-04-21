@@ -4,9 +4,9 @@ import styledEmo from "@emotion/styled";
 import { styled } from "@material-ui/core/styles";
 import ContainerUI from "@material-ui/core/Container";
 
-import dataIcon from "../images/expertise-icons/data.png";
-import storiesIcon from "../images/expertise-icons/stories.png";
-import designIcon from "../images/expertise-icons/design.png";
+import dataIcon from "../images/expertise-icons/data_blue.png";
+import storiesIcon from "../images/expertise-icons/stories_blue.png";
+import designIcon from "../images/expertise-icons/design_blue.png";
 
 const MyContainerUI = styled(ContainerUI)({
     margin: '180px auto',
