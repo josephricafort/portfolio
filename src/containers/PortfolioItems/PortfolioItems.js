@@ -25,23 +25,24 @@ const Child = styled.div`
 /* Need to import images individually for create-react-app */
 /* Using url("./") directly doesn't work */
 
-const PortfolioItems = () => 
-<ContainerUI>
-  <Container className="portfolioItemsContainer">
-    { portfolioItemsData.map((item, index) => {
-      return (
-        <Child className="portfolioItemsChild">
-          <Item
-            title={item.title}
-            description={item.description}
-            imageSource={coverImages[index]}
-            link={item.link}
-            styles={item.styles}
-          />
-        </Child>
-      )
-  })}
-  </Container>
+const PortfolioItems = () => (
+  <ContainerUI>
+    <Container className="portfolioItemsContainer">
+      {portfolioItemsData.map((item, index) => {
+        return (
+          <Child className="portfolioItemsChild">
+            <Item
+              title={item.title}
+              description={item.description}
+              imageSource={coverImages[index]}
+              link={item.link}
+              styles={item.styles}
+            />
+          </Child>
+        );
+      })}
+    </Container>
   </ContainerUI>
+);
 
 export default PortfolioItems;

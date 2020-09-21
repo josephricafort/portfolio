@@ -10,6 +10,16 @@
     }
   },
   {
+    "title": "How many times has your constituency changed?",
+    "description": "Analysis of constituency changes in Singapore since 1968.",
+    "imageSource": "st-constituency-change",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
+    "styles": {
+      "overlayColor": "#33333300",
+      "fontColor": "black"
+    }
+  },
+  {
     "title": "10 Years of \"Exclusive\" Economic Growth",
     "description": "Did the regional provinces experience the same economic growth as what the whole country experiences?",
     "imageSource": "ph-exclusive-growth-cover",
