@@ -1,17 +1,7 @@
-import React from 'react'
-
-import styled from "@emotion/styled"
-
-const Icons = styled.div`
-    
-`;
+import React from "react";
 
 const Skills = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return <div></div>;
+};
 
-export default Skills
+export default Skills;

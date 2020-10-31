@@ -3,7 +3,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import ContainerUI from "@material-ui/core/Container";
 
-import logo from "../images/jricafort-logo/logo.png"
+import logo from "../images/jricafort-logo/logo.png";
 
 const Container = styled.div`
   display: flex;
@@ -12,9 +12,6 @@ const Container = styled.div`
   align-items: center;
   align-content: center;
   margin-top: 48px;
-`;
-const Title = styled.h3`
-  margin: 0;
 `;
 const Navbar = styled.div`
   margin: 0;

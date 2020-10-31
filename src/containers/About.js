@@ -4,7 +4,6 @@ import styled from "@emotion/styled";
 import ContainerUI from "@material-ui/core/Container";
 
 import Story from "../components/About/Story";
-import Recognitions from "../components/About/Recognitions";
 import Experience from "../components/About/Experience";
 import Skills from "../components/About/Skills/Skills";
 
@@ -28,14 +27,14 @@ const About = () => {
   return (
     <ContainerUI>
       <Container id="about">
-          <Column>
-            <Story />
-            <Skills />
-          </Column>
-          <Column>
-            {/* <Recognitions /> */}
-            <Experience />
-          </Column>
+        <Column>
+          <Story />
+          <Skills />
+        </Column>
+        <Column>
+          {/* <Recognitions /> */}
+          <Experience />
+        </Column>
       </Container>
     </ContainerUI>
   );

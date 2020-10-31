@@ -3,11 +3,6 @@ import React from "react";
 import ContainerUI from "@material-ui/core/Container";
 import styled from "@emotion/styled";
 
-import Email from "../icons/Envelope";
-import Twitter from "../icons/Twitter";
-import Behance from "../icons/Behance";
-import LinkedIn from "../icons/LinkedIn";
-
 import ContactData from "../data/ContactData.json";
 import ContactLink from "../components/Contact/ContactLink";
 import ContactForm from "../components/Contact/ContactForm";
