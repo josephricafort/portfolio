@@ -10,26 +10,22 @@ import PortfolioItems from "./containers/PortfolioItems/PortfolioItems";
 import About from "./containers/About";
 import Contact from "./containers/Contact";
 import Footer from "./containers/Footer";
-import Expertise from "./containers/Expertise";
 import Blog from "./containers/Blog";
 
-const Container = styled.div`
-
-`;
+const Container = styled.div``;
 
 function Portfolio() {
   return [
     <Container maxWidth="lg" className="Portfolio">
       <Header className="Header" />
       <Intro className="Header" />
-      <PortfolioItems className="Portfolio"/>
-      <Expertise className="Expertise" />
-      <Blog className="Blog"/>
+      <PortfolioItems className="Portfolio" />
+      <Blog className="Blog" />
       <About className="About" />
     </Container>,
     <Footer className="Footer">
       <Contact className="Contact" />
-    </Footer>
+    </Footer>,
   ];
 }
 

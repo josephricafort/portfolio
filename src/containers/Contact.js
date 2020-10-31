@@ -30,8 +30,7 @@ const Column = styled.div`
   padding-right: 60px;
 `;
 
-const TextContainer = styled.div`
-`;
+const TextContainer = styled.div``;
 
 const ContactList = styled.div`
   display: flex;
@@ -51,17 +50,21 @@ const Contact = () => {
   return (
     <ContainerUI maxWidth="lg">
       <Container id={"contact"}>
-        <Title>How To Get In Touch</Title>
+        <Title>Get In Touch!</Title>
         <Column>
           <TextContainer>
             {/* <h4>
               Looking for solutions to data, design and development challenges or
               maybe needing some advice?
             </h4> */}
-            <p>Any projects you have in mind or any questions you want answered? Feel free to send or leave me a message and I’ll get in touch as soon as possible. :-)</p>
+            <p>
+              Any projects you have in mind or any questions you want answered?
+              Feel free to send or leave me a message and I’ll get in touch as
+              soon as possible. :-)
+            </p>
           </TextContainer>
           <ContactList>
-            {ContactData.map(contact => (
+            {ContactData.map((contact) => (
               <ContactLink
                 type={contact.type}
                 label={contact.label}
@@ -72,7 +75,7 @@ const Contact = () => {
           </ContactList>
         </Column>
         <Column>
-          <ContactForm /> 
+          <ContactForm />
         </Column>
       </Container>
     </ContainerUI>

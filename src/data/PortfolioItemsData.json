@@ -1,5 +1,25 @@
 [
   {
+    "title": "175 Years of the Straits Times' Headlines",
+    "description": "The stories that shaped Singapore and the world through the eyes of The Straits Times in the past 175 years.",
+    "imageSource": "st-175-headlines",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines/index.html?shell",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Constituency Changes in Singapore since 1968 to present",
+    "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
+    "imageSource": "st-constituency-change",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
+    "styles": {
+      "overlayColor": "#33333300",
+      "fontColor": "black"
+    }
+  },
+  {
     "title": "Circle of Nations",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things, a Switzerland based Data Visualization and UX Design studio.",
     "imageSource": "circle-of-nations",
@@ -7,16 +27,6 @@
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
-    }
-  },
-  {
-    "title": "How many times has your constituency changed?",
-    "description": "Analysis of constituency changes in Singapore since 1968.",
-    "imageSource": "st-constituency-change",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
-    "styles": {
-      "overlayColor": "#33333300",
-      "fontColor": "black"
     }
   },
   {
@@ -31,7 +41,7 @@
   },
   {
     "title": "Visualizing Philippine Tourism",
-    "description": "Visualizing the Trends on Tourists and Travel Destinations in the Philippines by Local and Foreign Tourists.",
+    "description": "Visualizing the trends on tourists and travel destinations in the Philippines by local and foreign tourists.",
     "imageSource": "tourist-arrival-philippines",
     "link": "https://tourist-arrival-philippines.netlify.com/",
     "styles": {
@@ -71,7 +81,7 @@
   },
   {
     "title": "Eurovision Country Voting",
-    "description": "Which countries voted which countries in Eurovision? A personal project. (external link)",
+    "description": "Which countries voted which countries in Eurovision? A personal project.",
     "imageSource": "eurovision",
     "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting",
     "styles": {

@@ -11,6 +11,7 @@ const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  margin-bottom: 100px;
   @media (max-width: 800px) {
     flex-direction: column;
     flex-wrap: nowrap;

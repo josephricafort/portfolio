@@ -9,7 +9,6 @@ const ItemContainer = styled.div`
   height: 260px;
   padding: 80px;
   border-radius: 3px;
-  background-color: ${(props) => props.overlayColor};
   background-image: url(${(props) => props.imageSource});
   background-position: center;
   background-repeat: no-repeat;
@@ -39,14 +38,11 @@ const LinkWrapper = styled.a`
 `;
 
 const TextContainer = styled.div`
-  margin: auto;
   max-width: 640px;
-  color: ${(props) => props.fontColor};
-  text-align: center;
-  text-shadow: ${(props) =>
-    props.fontColor == "white" || props.fontColor == "#FFFFFF"
-      ? "0px 0px 3px #333333"
-      : "none"};
+  color: black;
+  text-align: left;
+  padding: 10px 120px 20px 0px;
+  margin-bottom: 20px;
 `;
 
 const Title = styled.h3`
@@ -54,7 +50,6 @@ const Title = styled.h3`
 `;
 
 const Item = ({ title, description, imageSource, link, styles }) => {
-  console.log("." + imageSource);
   return (
     <LinkWrapper
       className="linkWrapper"
@@ -66,12 +61,11 @@ const Item = ({ title, description, imageSource, link, styles }) => {
         className="itemContainer"
         imageSource={imageSource}
         overlayColor={styles.overlayColor}
-      >
-        <TextContainer className="textContainer" fontColor={styles.fontColor}>
-          <Title>{title}</Title>
-          <p>{description}</p>
-        </TextContainer>
-      </ItemContainer>
+      ></ItemContainer>
+      <TextContainer className="textContainer" fontColor={styles.fontColor}>
+        <Title>{title}</Title>
+        <p>{description}</p>
+      </TextContainer>
     </LinkWrapper>
   );
 };
