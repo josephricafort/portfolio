@@ -41,8 +41,12 @@ const TextContainer = styled.div`
   max-width: 640px;
   color: black;
   text-align: left;
-  padding: 10px 120px 20px 0px;
+  padding: 10px 20px 20px 0px;
   margin-bottom: 20px;
+
+  @media (min-width: 500px) {
+    padding: 10px 120px 20px 0px;
+  }
 `;
 
 const Title = styled.h3`
