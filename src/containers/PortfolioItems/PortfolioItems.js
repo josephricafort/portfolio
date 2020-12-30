@@ -5,7 +5,6 @@ import ContainerUI from "@material-ui/core/Container";
 
 import portfolioItemsData from "../../data/PortfolioItemsData.json";
 import Item from "../../components/PortfolioItems/Item";
-import { coverImages } from "../../images/index";
 
 const Container = styled.div`
   display: flex;
@@ -35,7 +34,7 @@ const PortfolioItems = () => (
             <Item
               title={item.title}
               description={item.description}
-              imageSource={coverImages[index]}
+              imageSource={item.imageSource}
               link={item.link}
               styles={item.styles}
             />

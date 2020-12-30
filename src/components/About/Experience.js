@@ -19,19 +19,24 @@ const Experience = () => {
           </a>
         </strong>
         <br />
-        <italic>The Straits Times, Singapore</italic>
+        <italic>The Straits Times - Singapore</italic>
       </p>
       <p>
         <strong>
           <a href="https://interactivethings.com">Interaction Design Intern</a>
         </strong>
         <br />
-        <italic>Interactive Things, Zürich, Switzerland</italic>
+        <italic>Interactive Things - Zürich, Switzerland</italic>
+      </p>
+      <p>
+        <strong>Hardware Engineer (Internet of Things)</strong>
+        <br />
+        <italic>Spingine Corp - Cebu City, Philippines</italic>
       </p>
       <p>
         <strong>Test Development Engineer</strong>
         <br />
-        <italic>Analog Devices, General Trias, Cavite, Philippines</italic>
+        <italic>Analog Devices - General Trias, Cavite, Philippines</italic>
       </p>
     </Container>
   );

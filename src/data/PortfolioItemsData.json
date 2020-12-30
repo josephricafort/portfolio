@@ -1,8 +1,17 @@
 [
   {
-    "title": "175 Years of the Straits Times' Headlines",
-    "description": "The stories that shaped Singapore and the world through the eyes of The Straits Times in the past 175 years.",
-    "imageSource": "st-175-headlines",
+    "title": "The Greatest Migration in Human History (Work in Progress)",
+    "description": "How the shared linguistic ancestry of Austronesians tell us the story of mankind’s greatest expansion and adversities across the vast Indo-Pacific.",
+    "imageSource": "austronesian-datastory.png",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "175 Years of the Straits Times' Headlines: Stories that Made The Most Impact",
+    "description": "Which stories shaped Singapore and the world through the eyes of The Straits Times in the past 175 years?",
+    "imageSource": "st-175-headlines.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines/index.html?shell",
     "styles": {
       "overlayColor": null,
@@ -10,19 +19,9 @@
     }
   },
   {
-    "title": "Constituency Changes in Singapore since 1968 to present",
-    "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
-    "imageSource": "st-constituency-change",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
-    "styles": {
-      "overlayColor": "#33333300",
-      "fontColor": "black"
-    }
-  },
-  {
-    "title": "Circle of Nations",
+    "title": "Friend or Foe? The Common Interests between Countries of the World Analyzed",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things, a Switzerland based Data Visualization and UX Design studio.",
-    "imageSource": "circle-of-nations",
+    "imageSource": "circle-of-nations.png",
     "link": "https://circle-of-nations.interactivethings.io/",
     "styles": {
       "overlayColor": null,
@@ -30,9 +29,29 @@
     }
   },
   {
-    "title": "10 Years of \"Exclusive\" Economic Growth",
-    "description": "Did the regional provinces experience the same economic growth as what the whole country experiences?",
-    "imageSource": "ph-exclusive-growth-cover",
+    "title": "Why Singapore's constituency boundaries kept changing since 1968?",
+    "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
+    "imageSource": "st-constituency-change.png",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
+    "styles": {
+      "overlayColor": "#33333300",
+      "fontColor": "black"
+    }
+  },
+  {
+    "title": "Designing a Device to Help Farmers Adapt to Climate Change (Concept) ",
+    "description": "Designing a low-cost weather forecasting device for farmers without the need to read anything, inly through blinking lights. A winning article I wrote for Predictable Designs, a hardware and product development blog.",
+    "imageSource": "weather-forecast.png",
+    "link": "https://predictabledesigns.com/case-study-development-of-a-low-cost-weather-forecast-solution-for-farmers/",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "10 Years of \"Exclusive\" and Concentrated Economic Growth",
+    "description": "Looking at the concentration of growth between the capital and the regional provinces in the Philippines.",
+    "imageSource": "ph-exclusive-growth.png",
     "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/",
     "styles": {
       "overlayColor": "#432F000C",
@@ -40,9 +59,9 @@
     }
   },
   {
-    "title": "Visualizing Philippine Tourism",
+    "title": "Where All The Tourists From And Where They Mostly Go?",
     "description": "Visualizing the trends on tourists and travel destinations in the Philippines by local and foreign tourists.",
-    "imageSource": "tourist-arrival-philippines",
+    "imageSource": "tourist-arrival-philippines.png",
     "link": "https://tourist-arrival-philippines.netlify.com/",
     "styles": {
       "overlayColor": "#432F000C",
@@ -50,9 +69,9 @@
     }
   },
   {
-    "title": "How Represented Are You In The Data Visualization Community?",
+    "title": "Is The Data Visualization Community Diverse Enough?",
     "description": "Is your background rare in the community of data visualization professionals and enthusiasts?",
-    "imageSource": "dataviz-community-survey",
+    "imageSource": "dataviz-survey-diversity.png",
     "link": "https://blog.josericafort.com/posts/dataviz-community-survey-representation-diversity/",
     "styles": {
       "overlayColor": "#432F000C",
@@ -60,9 +79,9 @@
     }
   },
   {
-    "title": "Out of Reach",
+    "title": "The Ever Increasing Income Gap Between The Rich and The Poor Visualized",
     "description": "Visualizing income inequalities between countries and between income groups within countries. Created during my internship at Interactive Things.",
-    "imageSource": "out-of-reach",
+    "imageSource": "out-of-reach.png",
     "link": "https://out-of-reach.interactivethings.io/",
     "styles": {
       "overlayColor": null,
@@ -70,9 +89,9 @@
     }
   },
   {
-    "title": "Cebu City Jeepney Transport Map",
-    "description": "Designing a unique public transport map with a unique mode of transport.",
-    "imageSource": "jeepney-map",
+    "title": "Designing a Unique Public Transport Map for a Unique Mode of Transport",
+    "description": "Designing a map for the ever complex chaotic public jeepney transport in Cebu City, Philippines with a similar New York style public transport map.",
+    "imageSource": "jeepney-map.png",
     "link": "https://www.behance.net/gallery/82531129/Cebu-Jeepney-Transport-Map",
     "styles": {
       "overlayColor": "#432F005C",
@@ -80,9 +99,19 @@
     }
   },
   {
-    "title": "Eurovision Country Voting",
-    "description": "Which countries voted which countries in Eurovision? A personal project.",
-    "imageSource": "eurovision",
+    "title": "Learning Electronics Made Fun With Visual Cheatsheets",
+    "description": "TinkrPostr was made out of boredom. The ever technical electronics made not boring anymore with eye-catching and engaging visual material.",
+    "imageSource": "tinkrpostr.png",
+    "link": "https://www.behance.net/gallery/25061667/TinkrPostr-Electronics-Quick-Reference-Posters",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Visualizing How European Countries Voted in Eurovision from 2012 to 2017",
+    "description": "Which countries voted which countries in Eurovision? A fun personal project using Processing.",
+    "imageSource": "eurovision.jpg",
     "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting",
     "styles": {
       "overlayColor": null,

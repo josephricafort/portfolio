@@ -6,9 +6,21 @@ import styled from "@emotion/styled";
 import ContainerUI from "@material-ui/core/Container";
 
 const Container = styled.div`
-  max-width: 640px;
+  max-width: 1000px;
   margin: 120px auto;
   text-align: center;
+`;
+
+const SpecializationsList = styled.ul`
+  text-align: center;
+  padding: 0;
+  opacity: 0.6;
+
+  li {
+    display: inline-block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+  }
 `;
 
 const Intro = () => {
@@ -22,18 +34,20 @@ const Intro = () => {
         </Box> */}
         <Box>
           <h1>
-            Hi! I'm <strong>Joseph Ricafort.</strong>
-          </h1>{" "}
+            Hi! I'm <strong>Joseph Ricafort</strong>.
+          </h1>
           <h3>
-            I craft <em>visual narratives</em> and <em>explorations</em> through{" "}
-            <br />
-            <strong>data</strong> and <strong>design</strong>.
+            I'm a <strong>creative visual techie</strong> based in Singapore. I
+            craft <strong>data driven stories</strong>,
+            <strong> explorations</strong> and <strong>products</strong> to help
+            bring <em>joy</em>, lessen <em>pain</em> and relive people's{" "}
+            <em>imaginations</em>.
           </h3>
-          {/* <p>
-            I believe that design and data-driven stories has the power to shape
-            our way of thinking, our lens to better understand our complex
-            society, and our guide to make better, well-informed decisions.
-          </p> */}
+          <SpecializationsList>
+            <li>Data-driven Stories</li>&#8226;
+            <li>Interactive Web</li>&#8226;
+            <li>Physical and Digital Interactions</li>
+          </SpecializationsList>
         </Box>
       </Container>
     </ContainerUI>

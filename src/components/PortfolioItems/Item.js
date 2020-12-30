@@ -6,30 +6,9 @@ const ItemContainer = styled.div`
   display: flex;
   align-items: center;
   align-content: center;
-  height: 260px;
-  padding: 80px;
-  border-radius: 3px;
-  background-image: url(${(props) => props.imageSource});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
   &:hover {
-    opacity: 0.75;
+    ${({ link }) => link && `opacity: 0.75;`}
     filter: alpha(opacity=75); /* For IE8 and earlier */
-
-    // background: black;
-    // background: rgba(0, 0, 0, 0.8);
-
-    // filter: blur(4px);
-    // -o-filter: blur(4px);
-    // -ms-filter: blur(4px);
-    // -moz-filter: blur(4px);
-    // -webkit-filter: blur(4px);
-  }
-
-  @media (max-width: 800px) {
-    padding: 48px;
   }
 `;
 
@@ -38,6 +17,7 @@ const LinkWrapper = styled.a`
 `;
 
 const TextContainer = styled.div`
+  position: relative;
   max-width: 640px;
   color: black;
   text-align: left;
@@ -53,6 +33,13 @@ const Title = styled.h3`
   margin: 0;
 `;
 
+const Image = styled.img`
+  display: block;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+`;
+
 const Item = ({ title, description, imageSource, link, styles }) => {
   return (
     <LinkWrapper
@@ -63,9 +50,14 @@ const Item = ({ title, description, imageSource, link, styles }) => {
     >
       <ItemContainer
         className="itemContainer"
-        imageSource={imageSource}
         overlayColor={styles.overlayColor}
-      ></ItemContainer>
+        link={link}
+      >
+        <Image
+          src={require(`./../../images/cover-images/${imageSource}`)}
+          link={link}
+        ></Image>
+      </ItemContainer>
       <TextContainer className="textContainer" fontColor={styles.fontColor}>
         <Title>{title}</Title>
         <p>{description}</p>
