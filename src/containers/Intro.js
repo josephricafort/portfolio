@@ -39,9 +39,9 @@ const Intro = () => {
           <h3>
             I'm a <strong>creative visual techie</strong> based in Singapore. I
             craft <strong>data driven stories</strong>,
-            <strong> explorations</strong> and <strong>products</strong> to help
-            bring <em>joy</em>, lessen <em>pain</em> and relive people's{" "}
-            <em>imaginations</em>.
+            <strong> explorations</strong> and <strong>products</strong> to
+            spark <em>curiosity</em>, bring <em>joy</em>, lessen <em>pain</em>{" "}
+            and relive peoples' <em>imaginations</em>.
           </h3>
           <SpecializationsList>
             <li>Data-driven Stories</li>&#8226;
