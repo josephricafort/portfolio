@@ -31,13 +31,7 @@ const PortfolioItems = () => (
       {portfolioItemsData.map((item, index) => {
         return (
           <Child className="portfolioItemsChild">
-            <Item
-              title={item.title}
-              description={item.description}
-              imageSource={item.imageSource}
-              link={item.link}
-              styles={item.styles}
-            />
+            <Item {...item} />
           </Child>
         );
       })}

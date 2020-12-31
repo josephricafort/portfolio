@@ -40,7 +40,39 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-const Item = ({ title, description, imageSource, link, styles }) => {
+const PortfolioTypeList = styled.ul`
+ text-align; left;
+ padding: 0;
+ margin: 0;
+  li {
+    display: inline-block;
+    padding: 2px 6px;
+    text-transform: uppercase;
+    background-color: #eee;
+    margin: 2px 5px;
+    margin-left: 0;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+`;
+
+const AwardsList = styled(PortfolioTypeList)`
+  margin-top: 5px;
+  li {
+    display: inline;
+    background-color: #ffd60022;
+  }
+`;
+
+const Item = ({
+  title,
+  description,
+  imageSource,
+  link,
+  styles,
+  type,
+  awards,
+}) => {
   return (
     <LinkWrapper
       className="linkWrapper"
@@ -49,7 +81,7 @@ const Item = ({ title, description, imageSource, link, styles }) => {
       rel="noopener noreferrer"
     >
       <ItemContainer
-        className="itemContainer"
+        className="item-container"
         overlayColor={styles.overlayColor}
         link={link}
       >
@@ -58,8 +90,12 @@ const Item = ({ title, description, imageSource, link, styles }) => {
           link={link}
         ></Image>
       </ItemContainer>
-      <TextContainer className="textContainer" fontColor={styles.fontColor}>
+      <TextContainer className="text-container" fontColor={styles.fontColor}>
+        <PortfolioTypeList className="portfolio-type-list">
+          {type && type.map((t) => <li>{t}</li>)}
+        </PortfolioTypeList>
         <Title>{title}</Title>
+        <AwardsList>{awards && awards.map((a) => <li>{a}</li>)}</AwardsList>
         <p>{description}</p>
       </TextContainer>
     </LinkWrapper>

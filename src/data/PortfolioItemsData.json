@@ -2,6 +2,7 @@
   {
     "title": "The Greatest Migration in Human History (Work in Progress)",
     "description": "How the shared linguistic ancestry of Austronesians tell us the story of mankind’s greatest expansion and adversities across the vast Indo-Pacific.",
+    "type": ["Data story", "Interactive"],
     "imageSource": "austronesian-datastory.png",
     "styles": {
       "overlayColor": null,
@@ -11,6 +12,7 @@
   {
     "title": "175 Years of the Straits Times' Headlines: Stories that Made The Most Impact",
     "description": "Which stories shaped Singapore and the world through the eyes of The Straits Times in the past 175 years?",
+    "type": ["Data story", "Interactive"],
     "imageSource": "st-175-headlines.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines/index.html?shell",
     "styles": {
@@ -21,6 +23,7 @@
   {
     "title": "Friend or Foe? The Common Interests between Countries of the World Analyzed",
     "description": "Which countries would more likely to join the same organizations? This was my final internship project for Interactive Things, a Switzerland based Data Visualization and UX Design studio.",
+    "type": ["Data story", "Interactive"],
     "imageSource": "circle-of-nations.png",
     "link": "https://circle-of-nations.interactivethings.io/",
     "styles": {
@@ -31,6 +34,7 @@
   {
     "title": "Why Singapore's Constituencies' Boundaries Change So Often Since 1968?",
     "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
+    "type": ["Data story", "Interactive"],
     "imageSource": "st-constituency-change.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
     "styles": {
@@ -41,6 +45,8 @@
   {
     "title": "Designing a Device to Help Farmers Adapt to Climate Change (Concept) ",
     "description": "Designing a low-cost weather forecasting device for farmers without the need to read anything, inly through blinking lights. A winning article I wrote for Predictable Designs, a hardware and product development blog.",
+    "type": ["Physical product", "Hardware design", "Interaction design"],
+    "awards": ["Winner: Most Innovative Project - Predictable Designs"],
     "imageSource": "weather-forecast.png",
     "link": "https://predictabledesigns.com/case-study-development-of-a-low-cost-weather-forecast-solution-for-farmers/",
     "styles": {
@@ -51,6 +57,8 @@
   {
     "title": "10 Years of \"Exclusive\" Economic Growth",
     "description": "Looking at the concentration of growth between the capital and the regional provinces in the Philippines.",
+    "type": ["Data exploration", "Visual"],
+    "awards": ["Longlisted: Kantar Information is Beautiful Awards"],
     "imageSource": "ph-exclusive-growth.png",
     "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/",
     "styles": {
@@ -61,6 +69,7 @@
   {
     "title": "Where All The Tourists From And Where They Mostly Go?",
     "description": "Visualizing the trends on tourists and travel destinations in the Philippines by local and foreign tourists.",
+    "type": ["Data exploration", "Visual"],
     "imageSource": "tourist-arrival-philippines.png",
     "link": "https://tourist-arrival-philippines.netlify.com/",
     "styles": {
@@ -71,6 +80,8 @@
   {
     "title": "Is The Data Visualization Community Diverse Enough?",
     "description": "Is your background rare in the community of data visualization professionals and enthusiasts?",
+    "type": ["Data exploration", "Visual"],
+    "awards": ["3rd in Exploration: DVS Community Survey 2019 Challenge"],
     "imageSource": "dataviz-survey-diversity.png",
     "link": "https://blog.josericafort.com/posts/dataviz-community-survey-representation-diversity/",
     "styles": {
@@ -81,6 +92,10 @@
   {
     "title": "The Ever Increasing Income Gap Between The Rich and The Poor Visualized",
     "description": "Visualizing income inequalities between countries and between income groups within countries. Created during my internship at Interactive Things.",
+    "type": ["Data story", "Interactive"],
+    "awards": [
+      "2nd place: 2019 Human Development Data Visualization Challenge"
+    ],
     "imageSource": "out-of-reach.png",
     "link": "https://out-of-reach.interactivethings.io/",
     "styles": {
@@ -91,6 +106,7 @@
   {
     "title": "Designing a Public Jeepney Transport Map for a Unique Mode of Transport",
     "description": "Designing a map for the ever complex chaotic public jeepney transport in Cebu City, Philippines with a similar New York style public transport map.",
+    "type": ["Digital product", "Visual"],
     "imageSource": "jeepney-map.png",
     "link": "https://www.behance.net/gallery/82531129/Cebu-Jeepney-Transport-Map",
     "styles": {
@@ -101,6 +117,7 @@
   {
     "title": "Learning Electronics Made Fun With Visual Cheatsheets",
     "description": "TinkrPostr was made out of boredom. The ever technical electronics made not boring anymore with eye-catching and engaging visual material.",
+    "type": ["Digital product", "Physical product", "Visual"],
     "imageSource": "tinkrpostr.png",
     "link": "https://www.behance.net/gallery/25061667/TinkrPostr-Electronics-Quick-Reference-Posters",
     "styles": {
@@ -111,6 +128,7 @@
   {
     "title": "Visualizing How European Countries Voted in Eurovision from 2012 to 2017",
     "description": "Which countries voted which countries in Eurovision? A fun personal project using Processing.",
+    "type": ["Data exploration", "Visual"],
     "imageSource": "eurovision.jpg",
     "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting",
     "styles": {
