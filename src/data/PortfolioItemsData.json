@@ -36,6 +36,10 @@
     "title": "Why Singapore's Constituencies' Boundaries Change So Often Since 1968?",
     "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
     "type": ["Data story", "Interactive"],
+    "awards": [
+      "Infographics of the Year - STCom News Awards 2020, The Straits Times",
+      "Infographics of the Month - STCom News Awards 2nd Quarter 2020"
+    ],
     "imageSource": "st-constituency-change.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
     "styles": {
