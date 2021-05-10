@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import styles from "@emotion/styled";
 import { styled } from "@material-ui/styles";
@@ -31,24 +31,31 @@ const Title = styles.h2`
 `;
 
 const MyContainerUI = styled(ContainerUI)({
-    maxWidth: '400px',
-    textAlign: 'center'
+  maxWidth: "400px",
+  textAlign: "center",
 });
 
 const MyButton = styled(Button)({
-    marginTop: '48px'
+  marginTop: "48px",
 });
 
 const Blog = () => {
-    return (
-        <Container>
-            <MyContainerUI>
-                <Title>How I Do It (Blog)</Title>
-                <p>Inside look at my projects, thought processes, sketches, dummy projects and out of this world ideas.</p>
-                <MyButton variant="outlined" color="primary" disabled>Soon!</MyButton>
-            </MyContainerUI>
-        </Container>
-    )
-}
+  return (
+    <Container>
+      <MyContainerUI>
+        <Title>How I Do It (Blog)</Title>
+        <p>
+          Inside look at my projects, thought processes, sketches, dummy
+          projects and out of this world ideas.
+        </p>
+        <a href="https://thelostkite.com/category/work/">
+          <MyButton variant="outlined" color="primary">
+            Go to blog
+          </MyButton>
+        </a>
+      </MyContainerUI>
+    </Container>
+  );
+};
 
-export default Blog
+export default Blog;

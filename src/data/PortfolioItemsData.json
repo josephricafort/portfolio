@@ -12,7 +12,10 @@
   {
     "title": "175 Years of the Straits Times' Headlines: Stories that Made The Most Impact",
     "description": "Which stories shaped Singapore and the world through the eyes of The Straits Times in the past 175 years?",
-    "awards": ["Award of Excellence - Society for News Design 2020"],
+    "awards": [
+      "Shortlisted - The Sigma Awards 2021 for data journalism",
+      "Award of Excellence - Society for News Design 2020"
+    ],
     "type": ["Data story", "Interactive"],
     "imageSource": "st-175-headlines.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines/index.html?shell",
@@ -37,6 +40,7 @@
     "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
     "type": ["Data story", "Interactive"],
     "awards": [
+      "Shortlisted - The Sigma Awards 2021 for data journalism",
       "Infographics of the Year - STCom News Awards 2020, The Straits Times",
       "Infographics of the Month - STCom News Awards 2nd Quarter 2020"
     ],
