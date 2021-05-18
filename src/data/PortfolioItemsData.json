@@ -14,7 +14,8 @@
     "description": "Which stories shaped Singapore and the world through the eyes of The Straits Times in the past 175 years?",
     "awards": [
       "Shortlisted - The Sigma Awards 2021 for data journalism",
-      "Award of Excellence - Society for News Design 2020"
+      "Award of Excellence - Society for News Design 2020",
+      "Infographics of the Month - SPH Journalism Awards 4th Quarter 2020"
     ],
     "type": ["Data story", "Interactive"],
     "imageSource": "st-175-headlines.png",
@@ -41,8 +42,8 @@
     "type": ["Data story", "Interactive"],
     "awards": [
       "Shortlisted - The Sigma Awards 2021 for data journalism",
-      "Infographics of the Year - STCom News Awards 2020, The Straits Times",
-      "Infographics of the Month - STCom News Awards 2nd Quarter 2020"
+      "Infographics of the Year - SPH Journalism Awards 2020, The Straits Times",
+      "Infographics of the Month - SPH Journalism Awards 2nd Quarter 2020"
     ],
     "imageSource": "st-constituency-change.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
