@@ -41,6 +41,7 @@
     "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
     "type": ["Data story", "Interactive"],
     "awards": [
+      "",
       "Shortlisted - The Sigma Awards 2021 for data journalism",
       "Infographics of the Year - SPH Journalism Awards 2020, The Straits Times",
       "Infographics of the Month - SPH Journalism Awards 2nd Quarter 2020"
@@ -70,7 +71,7 @@
     "type": ["Data exploration", "Visual"],
     "awards": ["Longlisted: Kantar Information is Beautiful Awards"],
     "imageSource": "ph-exclusive-growth.png",
-    "link": "https://blog.josericafort.com/posts/philippine-exclusive-growth/",
+    "link": "https://thelostkite.com/philippine-exclusive-growth",
     "styles": {
       "overlayColor": "#432F000C",
       "fontColor": "black"
@@ -93,7 +94,7 @@
     "type": ["Data exploration", "Visual"],
     "awards": ["3rd in Exploration: DVS Community Survey 2019 Challenge"],
     "imageSource": "dataviz-survey-diversity.png",
-    "link": "https://blog.josericafort.com/posts/dataviz-community-survey-representation-diversity/",
+    "link": "https://thelostkite.com/dataviz-community-survey-representation-diversity",
     "styles": {
       "overlayColor": "#432F000C",
       "fontColor": "black"
