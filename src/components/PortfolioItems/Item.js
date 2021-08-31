@@ -64,6 +64,11 @@ const AwardsList = styled(PortfolioTypeList)`
   }
 `;
 
+const Role = styled.p`
+  font-size: 0.8em;
+  opacity: 0.7;
+`;
+
 const Item = ({
   title,
   description,
@@ -72,6 +77,7 @@ const Item = ({
   styles,
   type,
   awards,
+  role,
 }) => {
   return (
     <LinkWrapper
@@ -97,6 +103,7 @@ const Item = ({
         <Title>{title}</Title>
         <AwardsList>{awards && awards.map((a) => <li>{a}</li>)}</AwardsList>
         <p>{description}</p>
+        <Role>{role}</Role>
       </TextContainer>
     </LinkWrapper>
   );
