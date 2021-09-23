@@ -1,0 +1,25 @@
+[
+  {
+    "title": "Visualizing How European Countries Voted in Eurovision from 2012 to 2017",
+    "description": "Which countries voted which countries in Eurovision? A fun personal project using Processing.",
+    "role": "ROLE: Passion project - research/data analysis, design & development",
+    "type": ["Data exploration", "Visual"],
+    "imageSource": "eurovision.jpg",
+    "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Learning Electronics Made Fun With Visual Cheatsheets",
+    "description": "TinkrPostr was made out of boredom. The ever technical electronics made not boring anymore with eye-catching and engaging visual material.",
+    "type": ["Digital product", "Physical product", "Visual"],
+    "imageSource": "tinkrpostr.png",
+    "link": "https://www.behance.net/gallery/25061667/TinkrPostr-Electronics-Quick-Reference-Posters",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  }
+]

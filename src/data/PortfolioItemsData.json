@@ -1,11 +1,11 @@
 [
   {
-    "title": "Singapore 2030: Singapore's urban transformation in the next decade",
-    "description": "An interactive flythrough of the future infrastructure projects in Singapore",
-    "role": "ROLE: Project lead, design & development support",
+    "title": "Myers-Briggs Type Indicator (MBTI) is more than just a 4-letter code, here's why",
+    "description": "An exploration tool that visualizes cognitive functions and how it makes up the MBTI code",
+    "role": "ROLE: Passion project",
     "type": ["Visual", "Interactive"],
-    "imageSource": "singapore-2030.png",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2021/08/sg-2030/index.html",
+    "imageSource": "mbti-cogfunc-explorer.png",
+    "link": "https://mbti-explorer.thelostkite.com/",
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
@@ -17,6 +17,18 @@
     "role": "ROLE: Personal side solo project - research/data analysis, design & development",
     "type": ["Data story", "Interactive"],
     "imageSource": "austronesian-datastory.png",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Singapore 2030: Singapore's urban transformation in the next decade",
+    "description": "An interactive flythrough of the future infrastructure projects in Singapore",
+    "role": "ROLE: Project lead, design & development support",
+    "type": ["Visual", "Interactive"],
+    "imageSource": "singapore-2030.png",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2021/08/sg-2030/index.html",
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
@@ -70,7 +82,7 @@
   {
     "title": "Designing a Device to Help Farmers Adapt to Climate Change (Concept) ",
     "description": "Designing a low-cost weather forecasting device for farmers without the need to read anything, inly through blinking lights. A winning article I wrote for Predictable Designs, a hardware and product development blog.",
-    "role": "ROLE: Personal side solo project - design & development",
+    "role": "ROLE: Passion project - design & development",
     "type": ["Physical product", "Hardware design", "Interaction design"],
     "awards": ["Winner: Most Innovative Project - Predictable Designs"],
     "imageSource": "weather-forecast.png",
@@ -83,7 +95,7 @@
   {
     "title": "10 Years of \"Exclusive\" Economic Growth",
     "description": "Looking at the concentration of growth between the capital and the regional provinces in the Philippines.",
-    "role": "ROLE: Personal side solo project - design & development",
+    "role": "ROLE: Passion project - design & development",
     "type": ["Data exploration", "Visual"],
     "awards": ["Longlisted: Kantar Information is Beautiful Awards"],
     "imageSource": "ph-exclusive-growth.png",
@@ -108,7 +120,7 @@
   {
     "title": "Is The Data Visualization Community Diverse Enough?",
     "description": "Is your background rare in the community of data visualization professionals and enthusiasts?",
-    "role": "ROLE: Solo project - research/data analysis & design",
+    "role": "ROLE: Passion project - research/data analysis & design",
     "type": ["Data exploration", "Visual"],
     "awards": ["3rd in Exploration: DVS Community Survey 2019 Challenge"],
     "imageSource": "dataviz-survey-diversity.png",
@@ -136,24 +148,12 @@
   {
     "title": "Designing a Public Jeepney Transport Map for a Unique Mode of Transport",
     "description": "Designing a map for the ever complex chaotic public jeepney transport in Cebu City, Philippines with a similar New York style public transport map.",
-    "role": "ROLE: Personal side solo project - research/data analysis, design",
+    "role": "ROLE: Passion project - research/data analysis, design",
     "type": ["Digital product", "Visual"],
     "imageSource": "jeepney-map.png",
     "link": "https://www.behance.net/gallery/82531129/Cebu-Jeepney-Transport-Map",
     "styles": {
       "overlayColor": "#432F005C",
-      "fontColor": "white"
-    }
-  },
-  {
-    "title": "Visualizing How European Countries Voted in Eurovision from 2012 to 2017",
-    "description": "Which countries voted which countries in Eurovision? A fun personal project using Processing.",
-    "role": "ROLE: Personal side solo project - research/data analysis, design & development",
-    "type": ["Data exploration", "Visual"],
-    "imageSource": "eurovision.jpg",
-    "link": "https://www.behance.net/gallery/82531463/Eurovision-Country-Voting",
-    "styles": {
-      "overlayColor": null,
       "fontColor": "white"
     }
   }
