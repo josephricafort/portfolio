@@ -39,9 +39,10 @@ const Intro = () => {
           <h3>
             I'm a <strong>data / interactive designer and engineer</strong>{" "}
             based in Singapore.
-            <br /> I craft <strong>data-driven explorations</strong>,
+            <br /> I craft <strong>data-driven stories</strong>,
             <strong> explorations</strong> and <strong>products</strong> to
-            spark curiosity, bring wisdom, and relive peoples' imaginations.
+            achieve goals, spark conversations, and relive peoples'
+            imaginations.
           </h3>
           <SpecializationsList>
             <li>Data-driven Stories & Explorations</li>&#8226;
