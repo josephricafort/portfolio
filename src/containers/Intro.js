@@ -39,14 +39,14 @@ const Intro = () => {
           <h3>
             I'm a <strong>data / interactive designer and engineer</strong>{" "}
             based in Singapore.
-            <br /> I craft <strong>data-driven stories</strong>,
+            <br /> I craft <strong>data-driven explorations</strong>,
             <strong> explorations</strong> and <strong>products</strong> to
             spark curiosity, bring wisdom, and relive peoples' imaginations.
           </h3>
           <SpecializationsList>
-            <li>Data-driven Stories</li>&#8226;
-            <li>Interactive Web</li>&#8226;
-            <li>Physical and Digital Interactions</li>
+            <li>Data-driven Stories & Explorations</li>&#8226;
+            <li>Interactive Web Development</li>&#8226;
+            <li>Physical & Digital Interactions</li>
           </SpecializationsList>
         </Box>
       </Container>
