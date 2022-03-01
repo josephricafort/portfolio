@@ -37,8 +37,9 @@ const Intro = () => {
             Hi! I'm <strong>Joseph Ricafort</strong>.
           </h1>
           <h3>
-            I'm a <strong>creative visual techie</strong> based in Singapore. I
-            craft <strong>data-driven stories</strong>,
+            I'm a <strong>data / interactive designer and engineer</strong>{" "}
+            based in Singapore.
+            <br /> I craft <strong>data-driven stories</strong>,
             <strong> explorations</strong> and <strong>products</strong> to
             spark curiosity, bring wisdom, and relive peoples' imaginations.
           </h3>

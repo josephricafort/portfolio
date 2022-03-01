@@ -1,7 +1,7 @@
 [
   {
     "title": "Makeover of Singapore Budget 2022 Breakdown Charts",
-    "description": "Restyling and redesigning UX for The Straits Times yearly budget charts",
+    "description": "A complete restructure and redesign makeover for The Straits Times yearly budget charts.",
     "role": "ROLE: Project lead, design, development & content",
     "type": ["Data Story", "Interactive"],
     "imageSource": "sg-budget-2022.jpg",
@@ -12,8 +12,8 @@
     }
   },
   {
-    "title": "Interactive Museum: From Collection to Connection (Work in Progress)",
-    "description": "An interactive for a contemporary Dutch art museum bringing the museum from a physical experience into virtual spaces",
+    "title": "From Collection to Connection: An Interactive Museum Collaboration with SPRIGS_ (Work in Progress)",
+    "description": "An interactive for a contemporary Dutch art museum bringing the museum from a physical experience into virtual spaces.",
     "role": "ROLE: D3.js & Vue development",
     "type": ["Visual", "Interactive"],
     "imageSource": "art-museum-interactive.png",
@@ -24,7 +24,7 @@
   },
   {
     "title": "Myers-Briggs Type Indicator (MBTI) is more than just a 4-letter code, here's why",
-    "description": "An exploration tool that visualizes cognitive functions and how it makes up the MBTI code",
+    "description": "An exploration tool that visualizes cognitive functions and how it makes up the MBTI code.",
     "role": "ROLE: Passion project",
     "type": ["Visual", "Interactive"],
     "imageSource": "mbti-cogfunc-explorer.png",
