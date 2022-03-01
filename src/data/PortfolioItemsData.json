@@ -1,5 +1,28 @@
 [
   {
+    "title": "Makeover of Singapore Budget 2022 Breakdown Charts",
+    "description": "Restyling and redesigning UX for The Straits Times yearly budget charts",
+    "role": "ROLE: Project lead, design, development & content",
+    "type": ["Data Story", "Interactive"],
+    "imageSource": "sg-budget-2022.jpg",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2022/02/singapore-budget-revenue-and-spending-breakdown-2022/index.html?shell",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Museum Arnhem: Interactive Museum (Work in Progress)",
+    "description": "An interactive for a contemporary Dutch art museum bringing the museum from a physical experience into virtual spaces",
+    "role": "ROLE: D3.js & Vue development",
+    "type": ["Visual", "Interactive"],
+    "imageSource": "art-museum-interactive.png",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
     "title": "Myers-Briggs Type Indicator (MBTI) is more than just a 4-letter code, here's why",
     "description": "An exploration tool that visualizes cognitive functions and how it makes up the MBTI code",
     "role": "ROLE: Passion project",
@@ -14,7 +37,7 @@
   {
     "title": "The Words That Sailed Across Half The World (Work in Progress)",
     "description": "How the shared linguistic ancestry of Austronesians tell us the story of mankind’s greatest expansion and adversities across the vast Indo-Pacific.",
-    "role": "ROLE: Personal side solo project - research/data analysis, design & development",
+    "role": "ROLE: Passion project - research/data analysis, design & development",
     "type": ["Data story", "Interactive"],
     "imageSource": "austronesian-datastory.png",
     "styles": {
