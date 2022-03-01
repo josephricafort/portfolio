@@ -12,7 +12,7 @@
     }
   },
   {
-    "title": "Museum Arnhem: Interactive Museum (Work in Progress)",
+    "title": "Interactive Museum: From Collection to Connection (Work in Progress)",
     "description": "An interactive for a contemporary Dutch art museum bringing the museum from a physical experience into virtual spaces",
     "role": "ROLE: D3.js & Vue development",
     "type": ["Visual", "Interactive"],
