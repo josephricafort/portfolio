@@ -1,5 +1,18 @@
 [
   {
+    "title": "Designing a Device to Help Farmers Adapt to Climate Change (Concept) ",
+    "description": "Designing a low-cost weather forecasting device for farmers without the need to read anything, inly through blinking lights. A winning article I wrote for Predictable Designs, a hardware and product development blog.",
+    "role": "ROLE: Passion project - design & development",
+    "type": ["Physical product", "Hardware design", "Interaction design"],
+    "awards": ["Winner: Most Innovative Project - Predictable Designs"],
+    "imageSource": "weather-forecast.png",
+    "link": "https://predictabledesigns.com/case-study-development-of-a-low-cost-weather-forecast-solution-for-farmers/",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
     "title": "Visualizing How European Countries Voted in Eurovision from 2012 to 2017",
     "description": "Which countries voted which countries in Eurovision? A fun personal project using Processing.",
     "role": "ROLE: Passion project - research/data analysis, design & development",
