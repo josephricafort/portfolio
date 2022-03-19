@@ -66,6 +66,9 @@
     "description": "An interactive flythrough of the future infrastructure projects in Singapore",
     "role": "ROLE: Project lead, design & development support",
     "type": ["Visual", "Interactive"],
+    "awards": [
+      "Award of Excellence for Design (Features & Regional/Local), Infographics (Features) - Society for News Design 2021"
+    ],
     "imageSource": "singapore-2030.png",
     "link": "https://www.straitstimes.com/multimedia/graphics/2021/08/sg-2030/index.html",
     "styles": {
