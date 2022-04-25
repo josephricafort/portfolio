@@ -1,14 +1,11 @@
 [
   {
-    "title": "Which DVS Persona Are You?",
-    "description": "A profiling quiz of 16 different personas of what represents the entire DVS community.",
-    "role": "ROLE: Passion project, design, development",
-    "awards": [
-      "1st Place Winner in Exploratory - DVS State of the Industry Survey Challenge 2021"
-    ],
-    "type": ["Data Exploration", "Interactive"],
-    "imageSource": "dvs-personas.png",
-    "link": "https://www.datavisualizationsociety.org/soti-2021-gallery/josephricafort",
+    "title": "Revamp of Singapore Budget 2022 Breakdown Charts",
+    "description": "A complete restructure and redesign makeover for The Straits Times yearly budget charts.",
+    "role": "ROLE: Project lead, design, development & content",
+    "type": ["Data Story", "Interactive"],
+    "imageSource": "sg-budget-2022.jpg",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2022/02/singapore-budget-revenue-and-spending-breakdown-2022/index.html?shell",
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
@@ -25,7 +22,21 @@
       "fontColor": "white"
     }
   },
-
+  {
+    "title": "Which DVS Persona Are You?",
+    "description": "A profiling quiz of 16 different personas of what represents the entire DVS community.",
+    "role": "ROLE: Passion project, design, development",
+    "awards": [
+      "1st Place Winner in Exploratory - DVS State of the Industry Survey Challenge 2021"
+    ],
+    "type": ["Data Exploration", "Interactive"],
+    "imageSource": "dvs-personas.png",
+    "link": "https://www.datavisualizationsociety.org/soti-2021-gallery/josephricafort",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
   {
     "title": "Myers-Briggs Type Indicator (MBTI) is more than just a 4-letter code, here's why",
     "description": "An exploration tool that visualizes cognitive functions and how it makes up the MBTI code.",
@@ -33,18 +44,6 @@
     "type": ["Visual", "Interactive"],
     "imageSource": "mbti-cogfunc-explorer.png",
     "link": "https://mbti-explorer.thelostkite.com/",
-    "styles": {
-      "overlayColor": null,
-      "fontColor": "white"
-    }
-  },
-  {
-    "title": "Revamp of Singapore Budget 2022 Breakdown Charts",
-    "description": "A complete restructure and redesign makeover for The Straits Times yearly budget charts.",
-    "role": "ROLE: Project lead, design, development & content",
-    "type": ["Data Story", "Interactive"],
-    "imageSource": "sg-budget-2022.jpg",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2022/02/singapore-budget-revenue-and-spending-breakdown-2022/index.html?shell",
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
