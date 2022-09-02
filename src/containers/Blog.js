@@ -48,10 +48,9 @@ const Blog = () => {
           Inside look at my projects, thought processes, sketches, dummy
           projects and out of this world ideas.
         </p>
-        {/* <a href="https://thelostkite.com/category/work/"> */}
-        <a>
-          <MyButton variant="outlined" color="primary" disabled={true}>
-            Go to blog (Work in Progress)
+        <a href="https://thelostkite.com/category/work/">
+          <MyButton variant="outlined" color="primary" disabled={false}>
+            Go to blog
           </MyButton>
         </a>
       </MyContainerUI>
