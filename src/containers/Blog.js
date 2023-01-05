@@ -49,8 +49,8 @@ const Blog = () => {
           projects and out of this world ideas.
         </p>
         <a href="https://thelostkite.com/category/work/">
-          <MyButton variant="outlined" color="primary" disabled={false}>
-            Go to blog
+          <MyButton variant="outlined" color="primary" disabled={true}>
+            Go to blog (Work in Progress)
           </MyButton>
         </a>
       </MyContainerUI>
