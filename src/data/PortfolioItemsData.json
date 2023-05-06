@@ -24,11 +24,12 @@
     }
   },
   {
-    "title": "From Collection to Connection (Work in Progress)",
+    "title": "From Collection to Connection",
     "description": " An interactive museum collaboration project with SPRIGS_ bringing a contemporary Dutch museum from a physical experience into virtual spaces.",
     "role": "ROLE: D3.js & Vue development",
     "type": ["Visual", "Interactive"],
     "imageSource": "museum.png",
+    "link": "https://collectieconnectie.nl/#/",
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
