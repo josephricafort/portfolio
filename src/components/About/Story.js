@@ -13,11 +13,13 @@ const Story = () => {
     <Container>
       <h2>About Me</h2>
       <p>
-        I used to work with large datasets as a test development engineer in the
-        Philippines. I also do creative work as a hobby, playing around with
-        presentations and infographics. I got fascinated with the idea of
-        combining data, design and code together which led me to discover and
-        brought me to the field of data visualizations and data stories.
+        My experiences working in a semiconducter manufacturing, IoT startup and
+        a dataviz design studio led me to develop my interests in data, design
+        and development.
+      </p>
+      <p>
+        At the moment, I am crafting interactive stories for The Straits Times
+        in Singapore.
       </p>
     </Container>
   );

@@ -37,20 +37,25 @@ const MyContainerUI = styled(ContainerUI)({
 
 const MyButton = styled(Button)({
   marginTop: "48px",
+  borderRadius: "20px",
+  backgroundColor: "#29b6f6",
+  color: "#ffffff",
+  border: "none",
+  padding: "10px 20px",
 });
 
 const Blog = () => {
   return (
     <Container>
       <MyContainerUI>
-        <Title>How I Do It (Blog)</Title>
+        <Title>Experiments and Though Process</Title>
         <p>
-          Inside look at my projects, thought processes, sketches, dummy
-          projects and out of this world ideas.
+          A stash of fleeting visual ideas and explorations in this open
+          notebook/blog.
         </p>
         <a href="https://thelostkite.com/category/work/">
-          <MyButton variant="outlined" color="primary" disabled={true}>
-            Go to blog (Work in Progress)
+          <MyButton variant="outlined" color="primary" disabled={false}>
+            Go to TheLostKite blog
           </MyButton>
         </a>
       </MyContainerUI>
