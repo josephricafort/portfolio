@@ -1,32 +1,5 @@
 [
   {
-    "title": "Going beyond the label: Is your eco-friendly shirt really green?",
-    "description": "A playful walkthrough on how each step in a tshirt supply chain process contributes to the carbon footprint",
-    "role": "ROLE: Concept & development",
-    "awards": [
-      "GOLD - Elements: Animation Design - Society for News Design 2023"
-    ],
-    "type": ["Visual", "Data Story", "Interactive"],
-    "imageSource": "greenwashing.jpg",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2022/11/fast-fashion-greenwashing-environmental-impact/index.html?shell",
-    "styles": {
-      "overlayColor": null,
-      "fontColor": "white"
-    }
-  },
-  {
-    "title": "Revamp of Singapore Budget 2022 Breakdown Charts",
-    "description": "A complete restructure and redesign makeover for The Straits Times yearly budget charts.",
-    "role": "ROLE: Project lead, design, development & content",
-    "type": ["Data Story", "Interactive"],
-    "imageSource": "sg-budget-2022.jpg",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2022/02/singapore-budget-revenue-and-spending-breakdown-2022/index.html?shell",
-    "styles": {
-      "overlayColor": null,
-      "fontColor": "white"
-    }
-  },
-  {
     "title": "From Collection to Connection",
     "description": " An interactive museum collaboration project with SPRIGS_ bringing a contemporary Dutch museum from a physical experience into virtual spaces.",
     "role": "ROLE: D3.js & Vue development",
@@ -42,9 +15,6 @@
     "title": "Which DVS Persona Are You?",
     "description": "A profiling quiz of 16 different personas of what represents the entire DVS community.",
     "role": "ROLE: Passion project, design, development",
-    "awards": [
-      "1st Place Winner in Exploratory - DVS State of the Industry Survey Challenge 2021"
-    ],
     "type": ["Data Exploration", "Interactive"],
     "imageSource": "dvs-personas.png",
     "link": "https://www.datavisualizationsociety.org/soti-2021-gallery/josephricafort",
@@ -66,43 +36,11 @@
     }
   },
   {
-    "title": "The Words That Sailed Across Half The World (Work in Progress)",
+    "title": "The Sails That Sailed Across Half The World",
     "description": "How the shared linguistic ancestry of Austronesians tell us the story of mankind’s greatest expansion and adversities across the vast Indo-Pacific.",
     "role": "ROLE: Passion project - research/data analysis, design & development",
     "type": ["Data story", "Interactive"],
-    "imageSource": "austronesian-datastory.png",
-    "styles": {
-      "overlayColor": null,
-      "fontColor": "white"
-    }
-  },
-  {
-    "title": "Singapore 2030: Singapore's urban transformation in the next decade",
-    "description": "An interactive flythrough of the future infrastructure projects in Singapore",
-    "role": "ROLE: Project lead, design & development support",
-    "type": ["Visual", "Interactive"],
-    "awards": [
-      "Award of Excellence for Design (Features & Regional/Local), Infographics (Features) - Society for News Design 2021"
-    ],
-    "imageSource": "singapore-2030.png",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2021/08/sg-2030/index.html",
-    "styles": {
-      "overlayColor": null,
-      "fontColor": "white"
-    }
-  },
-  {
-    "title": "175 Years of the Straits Times' Headlines: Stories that Made The Most Impact",
-    "description": "Which stories shaped Singapore and the world through the eyes of The Straits Times in the past 175 years?",
-    "role": "ROLE: Project lead, design & content",
-    "awards": [
-      "Award of Excellence - Society for News Design 2020",
-      "Shortlisted - The Sigma Awards 2021 for data journalism",
-      "Best Data Visualisation (Silver) - Digital Media Awards, Asia 2021"
-    ],
-    "type": ["Data story", "Interactive"],
-    "imageSource": "st-175-headlines.png",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines/index.html?shell",
+    "imageSource": "across-half-the-world-cover.jpg",
     "styles": {
       "overlayColor": null,
       "fontColor": "white"
@@ -121,27 +59,10 @@
     }
   },
   {
-    "title": "Why Singapore's Constituencies' Boundaries Change So Often Since 1968?",
-    "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
-    "role": "ROLE: Research/data analysis & design",
-    "type": ["Data story", "Interactive"],
-    "awards": [
-      "Shortlisted - The Sigma Awards 2021 for data journalism",
-      "Infographics of the Year - SPH Journalism Awards 2020, The Straits Times"
-    ],
-    "imageSource": "st-constituency-change.png",
-    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
-    "styles": {
-      "overlayColor": "#33333300",
-      "fontColor": "black"
-    }
-  },
-  {
     "title": "10 Years of \"Exclusive\" Economic Growth",
     "description": "Looking at the concentration of growth between the capital and the regional provinces in the Philippines.",
     "role": "ROLE: Passion project - design & development",
     "type": ["Data exploration", "Visual"],
-    "awards": ["Longlisted: Kantar Information is Beautiful Awards"],
     "imageSource": "ph-exclusive-growth.png",
     "link": "https://thelostkite.com/philippine-exclusive-growth",
     "styles": {
@@ -166,7 +87,6 @@
     "description": "Is your background rare in the community of data visualization professionals and enthusiasts?",
     "role": "ROLE: Passion project - research/data analysis & design",
     "type": ["Data exploration", "Visual"],
-    "awards": ["3rd in Exploration: DVS Community Survey 2019 Challenge"],
     "imageSource": "dataviz-survey-diversity.png",
     "link": "https://thelostkite.com/dataviz-community-survey-representation-diversity",
     "styles": {
@@ -179,9 +99,6 @@
     "description": "Visualizing income inequalities between countries and between income groups within countries. Created during my internship at Interactive Things.",
     "role": "ROLE: Internship project - research/data analysis, design & development",
     "type": ["Data story", "Interactive"],
-    "awards": [
-      "2nd place: 2019 Human Development Data Visualization Challenge"
-    ],
     "imageSource": "out-of-reach.png",
     "link": "https://out-of-reach.interactivethings.io/",
     "styles": {

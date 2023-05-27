@@ -1,5 +1,98 @@
 [
   {
+    "title": "The Ever Increasing Income Gap Between The Rich and The Poor Visualized",
+    "awards": ["2nd place: 2019 Human Development Data Visualization Challenge"]
+  },
+  {
+    "title": "Is The Data Visualization Community Diverse Enough?",
+    "awards": ["3rd in Exploration: DVS Community Survey 2019 Challenge"]
+  },
+  {
+    "title": "10 Years of \"Exclusive\" Economic Growth",
+    "awards": ["Longlisted: Kantar Information is Beautiful Awards"]
+  },
+  {
+    "title": "Which DVS Persona Are You?",
+    "awards": [
+      "1st Place Winner in Exploratory - DVS State of the Industry Survey Challenge 2021"
+    ]
+  },
+  {
+    "title": "Going beyond the label: Is your eco-friendly shirt really green?",
+    "description": "A playful walkthrough on how each step in a tshirt supply chain process contributes to the carbon footprint",
+    "role": "ROLE: Concept & development",
+    "awards": [
+      "GOLD - Elements: Animation Design - Society for News Design 2023"
+    ],
+    "type": ["Visual", "Data Story", "Interactive"],
+    "imageSource": "greenwashing.jpg",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2022/11/fast-fashion-greenwashing-environmental-impact/index.html?shell",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Revamp of Singapore Budget 2022 Breakdown Charts",
+    "description": "A complete restructure and redesign makeover for The Straits Times yearly budget charts.",
+    "role": "ROLE: Project lead, design, development & content",
+    "type": ["Data Story", "Interactive"],
+    "imageSource": "sg-budget-2022.jpg",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2022/02/singapore-budget-revenue-and-spending-breakdown-2022/index.html?shell",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Singapore 2030: Singapore's urban transformation in the next decade",
+    "description": "An interactive flythrough of the future infrastructure projects in Singapore",
+    "role": "ROLE: Project lead, design & development support",
+    "type": ["Visual", "Interactive"],
+    "awards": [
+      "Award of Excellence for Design (Features & Regional/Local), Infographics (Features) - Society for News Design 2021"
+    ],
+    "imageSource": "singapore-2030.png",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2021/08/sg-2030/index.html",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "175 Years of the Straits Times' Headlines: Stories that Made The Most Impact",
+    "description": "Which stories shaped Singapore and the world through the eyes of The Straits Times in the past 175 years?",
+    "role": "ROLE: Project lead, design & content",
+    "awards": [
+      "Award of Excellence - Society for News Design 2020",
+      "Shortlisted - The Sigma Awards 2021 for data journalism",
+      "Best Data Visualisation (Silver) - Digital Media Awards, Asia 2021"
+    ],
+    "type": ["Data story", "Interactive"],
+    "imageSource": "st-175-headlines.png",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2020/10/175-years-headlines/index.html?shell",
+    "styles": {
+      "overlayColor": null,
+      "fontColor": "white"
+    }
+  },
+  {
+    "title": "Why Singapore's Constituencies' Boundaries Change So Often Since 1968?",
+    "description": "Analysis of constituency changes in Singapore since 1968. An interactive story for The Straits Times during the Singapore General Elections coverage.",
+    "role": "ROLE: Research/data analysis & design",
+    "type": ["Data story", "Interactive"],
+    "awards": [
+      "Shortlisted - The Sigma Awards 2021 for data journalism",
+      "Infographics of the Year - SPH Journalism Awards 2020, The Straits Times"
+    ],
+    "imageSource": "st-constituency-change.png",
+    "link": "https://www.straitstimes.com/multimedia/graphics/2020/06/singapore-general-election-ge2020-constituency-changes/index.html?shell",
+    "styles": {
+      "overlayColor": "#33333300",
+      "fontColor": "black"
+    }
+  },
+  {
     "title": "Designing a Device to Help Farmers Adapt to Climate Change (Concept) ",
     "description": "Designing a low-cost weather forecasting device for farmers without the need to read anything, inly through blinking lights. A winning article I wrote for Predictable Designs, a hardware and product development blog.",
     "role": "ROLE: Passion project - design & development",

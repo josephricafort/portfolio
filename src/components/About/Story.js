@@ -13,13 +13,9 @@ const Story = () => {
     <Container>
       <h2>About Me</h2>
       <p>
-        My experiences working in a semiconducter manufacturing, IoT startup and
-        a dataviz design studio led me to develop my interests in data, design
-        and development.
-      </p>
-      <p>
-        At the moment, I am crafting interactive stories for The Straits Times
-        in Singapore.
+        My experiences working in a semiconducter manufacturing, an IoT startup,
+        a dataviz design studio and a newsroom led me to develop my interests
+        and skills in data, design and development.
       </p>
     </Container>
   );
