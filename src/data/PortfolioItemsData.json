@@ -2,7 +2,10 @@
   {
     "title": "Going beyond the label: Is your eco-friendly shirt really green?",
     "description": "A playful walkthrough on how each step in a tshirt supply chain process contributes to the carbon footprint",
-    "role": "ROLE: Design & development",
+    "role": "ROLE: Concept & development",
+    "awards": [
+      "GOLD - Elements: Animation Design - Society for News Design 2023"
+    ],
     "type": ["Visual", "Data Story", "Interactive"],
     "imageSource": "greenwashing.jpg",
     "link": "https://www.straitstimes.com/multimedia/graphics/2022/11/fast-fashion-greenwashing-environmental-impact/index.html?shell",
